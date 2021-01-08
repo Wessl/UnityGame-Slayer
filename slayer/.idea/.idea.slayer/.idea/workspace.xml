@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e437661b-4d0c-4fa7-8ff3-5e09dc4a0bc5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu Shit/MainMenuOptions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SoundMusicOptions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/todo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.1.0b16/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/ToggleGroup.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sword.cs" />
+      <option value="$PROJECT_DIR$/Assets/Timer.cs" />
+      <option value="$PROJECT_DIR$/Assets/EnemyShoppe.cs" />
+      <option value="$PROJECT_DIR$/Assets/EnemySpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlayAgain.cs" />
+      <option value="$PROJECT_DIR$/Assets/EnemySlime.cs" />
+      <option value="$PROJECT_DIR$/Assets/SlimeRemains.cs" />
+      <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/WeaponsLister.cs" />
+      <option value="$PROJECT_DIR$/Assets/MainMenuButtons.cs" />
+      <option value="$PROJECT_DIR$/Assets/WeaponPicker.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayAgain.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/OnLoseMenuOptions.cs" />
+      <option value="$PROJECT_DIR$/Assets/OnWinMenuOptions.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/WeaponPicker.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/WeaponsLister.cs" />
+      <option value="$PROJECT_DIR$/Assets/OnGetNewWeaponOptions.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Sword.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuButtons.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Menu Shit/WeaponPicker.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemySlime.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyShoppe.cs" />
+      <option value="$PROJECT_DIR$/Assets/TurretBullet.cs" />
+      <option value="$PROJECT_DIR$/Assets/EnemyTurret.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Menu Shit/OnGetNewWeaponOptions.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LongSword.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TurretBullet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SwingSword.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Menu Shit/MainMenuOptions.cs" />
+      <option value="$PROJECT_DIR$/Assets/LevelPicker.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/LevelLister.cs" />
+      <option value="$PROJECT_DIR$/Assets/todo.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyTurret.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Menu Shit/OnWinMenuOptions.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SlimeRemains.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
+      <option value="$PROJECT_DIR$/Assets/SoundMusicOptions.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Menu Shit/MainMenuButtons.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1m13Mv1vIOAisqt7eOo1OzeWmhZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34991798" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e437661b-4d0c-4fa7-8ff3-5e09dc4a0bc5" name="Default Changelist" comment="" />
+      <created>1608647231030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608647231030</updated>
+      <workItem from="1608647264241" duration="3688000" />
+      <workItem from="1608733027206" duration="14665000" />
+      <workItem from="1608802479610" duration="3321000" />
+      <workItem from="1608995747076" duration="2412000" />
+      <workItem from="1609276906625" duration="21684000" />
+      <workItem from="1609400554190" duration="4795000" />
+      <workItem from="1609597108548" duration="4854000" />
+      <workItem from="1609675023311" duration="5295000" />
+      <workItem from="1609700482569" duration="86000" />
+      <workItem from="1609712693163" duration="4642000" />
+      <workItem from="1609784608777" duration="1930000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
