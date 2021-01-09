@@ -10,7 +10,7 @@ public class EnemyTurret : MonoBehaviour
 {
     // References to other components on this gameobject - assigned via editor
     public Rigidbody2D bd;
-    public CircleCollider2D collider;
+    public new CircleCollider2D collider;
     public GameObject turretBullet;                         // The bullet prefab to spawn
     // Some IEnumerator bools to halt certain actions
     private bool waiting = false;

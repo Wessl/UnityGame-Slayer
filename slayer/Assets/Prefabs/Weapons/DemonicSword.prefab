@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1933917817}
   - component: {fileID: 3791290464320498086}
   - component: {fileID: -5960876394760665889}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: DemonicSword
   m_TagString: SwordAttack
   m_Icon: {fileID: 0}

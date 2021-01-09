@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 402506634559285908}
   - component: {fileID: 3271045473141345690}
   - component: {fileID: 3852609881565608002}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: LongSword
   m_TagString: LongSwordAttack
   m_Icon: {fileID: 0}

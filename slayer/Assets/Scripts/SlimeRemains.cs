@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine.Experimental.Rendering.Universal;
@@ -24,5 +25,14 @@ public class SlimeRemains : MonoBehaviour
     public void SetLightSettings(Light2D l)
     {
         _myLight = l;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log(other.name);
+        if (other.name == "ShovelAttack(Clone)")
+        {
+            Destroy(gameObject);
+        }
     }
 }

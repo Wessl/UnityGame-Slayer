@@ -18,9 +18,9 @@ public class EnemySpawner : MonoBehaviour
 
     [SerializeField] private float randomizedDelayFactor = 1f;
 
-    [SerializeField] public (float, float) spawnX;
+    [SerializeField] private float spawnX = 1.7f;
 
-    [SerializeField] public (float, float) spawnY;
+    [SerializeField] private float spawnY = 0.9f;
 
     [SerializeField] public int timeUntilActivation;
     
@@ -53,8 +53,8 @@ public class EnemySpawner : MonoBehaviour
         waiting = true;
         var currentPos = transform.position;
         var spawnPosition = new Vector2(currentPos.x, currentPos.y);
-        spawnPosition.x += UnityEngine.Random.Range(-1.7f, 1.7f);
-        spawnPosition.y += UnityEngine.Random.Range(-0.9f, 0.9f);
+        spawnPosition.x += UnityEngine.Random.Range(-1f * spawnX, spawnX);
+        spawnPosition.y += UnityEngine.Random.Range(-1f * spawnY, spawnY);
         
 
         Instantiate(enemyToSpawn, spawnPosition, Quaternion.identity);

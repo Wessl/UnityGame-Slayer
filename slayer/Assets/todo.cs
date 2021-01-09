@@ -10,8 +10,12 @@
  * better button graphics
  * enemies with different kinds of movement, say hopping from place to place or just something different from what I have now
  * scooplike weapon that can be used to scoop away lava slime remains
- * 
- * 
+ * turn enemy sprites around if they are running in a particular direction, e.g. slimes so they look like they arerunning in the right direction
+ * enemy that shoots stuff that is target seeking towards the player
+ * animated bullets
+ * death animations for enemies
+ * many small enemies that spawn and move closer to each other
+ * background with lanterns that only light up that part of the scene
  */
 
 /*

@@ -9,7 +9,7 @@ public class MainMenuButtons : MonoBehaviour
     public GameObject weaponpanel;
     public GameObject optionsPanel;
     public GameObject levelPanel;
-   
+
     public void OnClickPlay()
     {
         if (PlayerPrefs.GetInt("ChosenLevel") == 0)     // This is in case it's the first time you start up
@@ -44,8 +44,13 @@ public class MainMenuButtons : MonoBehaviour
        
     }
 
+    // Sound options is handled in a separate script: may be a bad idea?
     public void OnClickOptions()
     {
+        // First: Close the other panels to remove potential panel conflicts
+        weaponpanel.SetActive(false);
+        levelPanel.SetActive(false);
+        // Now enable options panel, and set up the toggles so they match the current options. 
         optionsPanel.SetActive(true);
         var toggles = optionsPanel.GetComponentsInChildren<Toggle>();
         var currentActiveSwingType = PlayerPrefs.GetInt("SwingType");
@@ -59,5 +64,11 @@ public class MainMenuButtons : MonoBehaviour
             toggles[0].isOn = false;
             toggles[1].isOn = true;
         }
+    }
+
+    public void OnClickCloseGame()
+    {
+        Debug.Log("Game shutting down, thanks for playing. Beep boop.");
+        Application.Quit();
     }
 }

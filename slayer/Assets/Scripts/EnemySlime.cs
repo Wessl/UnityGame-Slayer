@@ -11,6 +11,8 @@ public class EnemySlime : MonoBehaviour
     public Rigidbody2D bd;
     public new BoxCollider2D collider;
     public GameObject slimeRemains;
+    [Tooltip("The particle system to use when this slime dies")]
+    public GameObject slimeBallParticleSystem;
     private Light2D _myLight;
 
     private bool _waiting = false;
@@ -55,6 +57,8 @@ public class EnemySlime : MonoBehaviour
                 // let slime remains inherit light settings
                 remains.GetComponent<SlimeRemains>().SetLightSettings(_myLight);
             }
+            // Instantiate death effect particle system
+            Instantiate(slimeBallParticleSystem, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

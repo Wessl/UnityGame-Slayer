@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5012903121134353428}
   - component: {fileID: 2632435972023692694}
   - component: {fileID: 7551779471123023916}
+  - component: {fileID: 6722283873132416009}
   m_Layer: 9
   m_Name: EnemyDirectionalTurret
   m_TagString: Enemy
@@ -138,3 +139,22 @@ CircleCollider2D:
   m_Offset: {x: -0.0011211038, y: 0}
   serializedVersion: 2
   m_Radius: 0.13085106
+--- !u!95 &6722283873132416009
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5012903121134353429}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d16b82bcc70230847ac388ea896cae0a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

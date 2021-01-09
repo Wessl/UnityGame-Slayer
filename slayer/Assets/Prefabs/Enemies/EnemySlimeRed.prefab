@@ -173,6 +173,7 @@ MonoBehaviour:
   bd: {fileID: 5012903121134353428}
   collider: {fileID: 2503945122797823402}
   slimeRemains: {fileID: 3368767491945336228, guid: 97b33c280573ff746bea3680876f81b0, type: 3}
+  slimeBallParticleSystem: {fileID: 6082718438231548772, guid: 986735d0d539fa74ebe7607ed09699b0, type: 3}
   spd: 1
   useLight: 1
   waitTime: 0.1
