@@ -8,7 +8,7 @@ using Random = UnityEngine.Random;
 public class EnemyShoppe : MonoBehaviour
 {
     public Rigidbody2D bd;
-    public BoxCollider2D collider;
+    public new BoxCollider2D collider;
     private bool waiting = false;
     private bool beginning = true;
     [SerializeField] private float spd = 1f;

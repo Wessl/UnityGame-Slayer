@@ -3,34 +3,42 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.UIElements;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 using Random = UnityEngine.Random;
 
 public class EnemySlime : MonoBehaviour
 {
     public Rigidbody2D bd;
-    public BoxCollider2D collider;
-    private bool waiting = false;
-    private bool beginning = true;
-    [SerializeField] private float spd = 1f;
+    public new BoxCollider2D collider;
     public GameObject slimeRemains;
+    private Light2D _myLight;
 
+    private bool _waiting = false;
+    private bool _beginning = true;
+    [SerializeField] private float spd = 1f;
+    [SerializeField] private bool useLight = false;
+    
 
     [SerializeField] private float waitTime = 0.1f;
     // Start is called before the first frame update
     void Start()
     {
-        waiting = true;     // set to waiting while setting things up
+        _waiting = true;     // set to waiting while setting things up
+        if (useLight)
+        {
+            _myLight = GetComponent<Light2D>();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (beginning)
+        if (_beginning)
         {
             CreateEnemy();
         }
 
-        if (!waiting)
+        if (!_waiting)
         {
             StartCoroutine(MoveRandom());
         }
@@ -43,7 +51,9 @@ public class EnemySlime : MonoBehaviour
             if (gameObject.CompareTag("SlimeRed"))
             {
                 // spawn slime remains
-                Instantiate(slimeRemains, transform.position, Quaternion.identity);
+                var remains = Instantiate(slimeRemains, transform.position, Quaternion.identity);
+                // let slime remains inherit light settings
+                remains.GetComponent<SlimeRemains>().SetLightSettings(_myLight);
             }
             Destroy(gameObject);
         }
@@ -51,13 +61,13 @@ public class EnemySlime : MonoBehaviour
 
     private IEnumerator MoveRandom()
     {
-        waiting = true;
+        _waiting = true;
         var xdir = Random.Range(-0.003f * spd, 0.003f * spd);
         var ydir = Random.Range(-0.003f * spd, 0.003f * spd);
         Vector2 v = new Vector2(xdir, ydir);
         bd.AddForce(v * Time.deltaTime, ForceMode2D.Impulse);
         yield return new WaitForSeconds(waitTime);
-        waiting = false;
+        _waiting = false;
     }
 
     void CreateEnemy()
@@ -65,12 +75,16 @@ public class EnemySlime : MonoBehaviour
         Color c = gameObject.GetComponentInChildren<SpriteRenderer>().color;
         c.a = c.a * 1.01f;
         gameObject.GetComponentInChildren<SpriteRenderer>().color = c;
+        if (useLight)
+        {
+            _myLight.intensity = c.a;   // Gradually increase light source intensity while spawning
+        }
         if (c.a > 0.9f)
         {
-            beginning = false;  // beginning is to say "we're done initializing"
-            bd.WakeUp();        // enable collisions once it is visible
+            _beginning = false;  // beginning is to say "we're done initializing"
+            bd.WakeUp();         // enable collisions once it is visible
             collider.enabled = true;
-            waiting = false;    // waiting is to just turn on the behaviour that handles movement
+            _waiting = false;    // waiting is to just turn on the behaviour that handles movement
         }
     }
 }
