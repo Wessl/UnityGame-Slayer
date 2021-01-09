@@ -9,7 +9,13 @@ public class SlimeRemains : MonoBehaviour
 {
     // How long this object should be alive before being destroyed
     [SerializeField] public float duration;
-    public Light2D _myLight;
+    private Light2D _myLight;
+
+    // Need to get component on Awake, since SetLightSettings() is called the same frame as this is instantiated, which is before start
+    void Awake()
+    {
+        _myLight = GetComponent<Light2D>(); 
+    }
     void Start()
     {
         StartCoroutine(Life());
@@ -24,13 +30,14 @@ public class SlimeRemains : MonoBehaviour
 
     public void SetLightSettings(Light2D l)
     {
-        _myLight = l;
+        _myLight.color = l.color;
+        _myLight.intensity = l.intensity;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log(other.name);
-        if (other.name == "ShovelAttack(Clone)")
+        if (other.name == "ShovelAttack(Clone)")        // Gross - use more versatile approach to detect shovel
         {
             Destroy(gameObject);
         }

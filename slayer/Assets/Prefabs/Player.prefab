@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 50
   bd: {fileID: 8914411577984791402}
-  deathScreen: {fileID: 0}
+  deathPanel: {fileID: 0}
 --- !u!50 &8914411577984791402
 Rigidbody2D:
   serializedVersion: 4

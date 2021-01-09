@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel.Design.Serialization;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.Rendering.VirtualTexturing;
-using UnityEngine.Timeline;
 using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
@@ -14,7 +10,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public float speed = 5f;       // speed variable, can be changed in editor
     public Rigidbody2D bd;                          // The rigidbody of the player
     private GameObject _attackObject;               
-    public GameObject deathScreen;
+    public GameObject deathPanel;
     private bool _attackOptionTowardsMouse = false;
     private GameManager _gm;
     private Vector3 myLocation;
@@ -52,7 +48,7 @@ public class PlayerController : MonoBehaviour
 
     void Attack()
     {
-        // An attack is triggered if the player hits either Space or clicks their mouse/ taps their screen - could be nicer / more versatile, works for now 
+        // An attack is triggered if the player hits either Space or clicks their mouse/ taps their screen - could be nicer/ cleaner / more versatile, works for now 
         if(Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Mouse0))
         {
             // There are two options of attacking, one is in the direction of the player's mouse pointer
@@ -108,9 +104,9 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Enemy") || other.CompareTag("SlimeRed") || other.CompareTag("EnemyRemains"))
         {
             // Show the death screen first, then destroy player gameObject
-            deathScreen.SetActive(true);
+            deathPanel.SetActive(true);
             string timePassedString = GameObject.FindWithTag("TimerText").GetComponent<Timer>().GetTimePassedAsString();
-            deathScreen.GetComponentInChildren<Text>().text = String.Format("You died, after surviving for {0}", timePassedString);
+            deathPanel.GetComponentInChildren<Text>().text = String.Format("You died, after surviving for {0}", timePassedString);
             Destroy(gameObject);
         }
     }

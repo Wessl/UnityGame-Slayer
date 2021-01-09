@@ -19,6 +19,7 @@ public class EnemySlime : MonoBehaviour
     private bool _beginning = true;
     [SerializeField] private float spd = 1f;
     [SerializeField] private bool useLight = false;
+    [SerializeField] private float maxLightIntensity = 0.4f;
     
 
     [SerializeField] private float waitTime = 0.1f;
@@ -79,7 +80,7 @@ public class EnemySlime : MonoBehaviour
         Color c = gameObject.GetComponentInChildren<SpriteRenderer>().color;
         c.a = c.a * 1.01f;
         gameObject.GetComponentInChildren<SpriteRenderer>().color = c;
-        if (useLight)
+        if (useLight && _myLight.intensity < maxLightIntensity)
         {
             _myLight.intensity = c.a;   // Gradually increase light source intensity while spawning
         }

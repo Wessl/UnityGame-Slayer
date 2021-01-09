@@ -176,6 +176,7 @@ MonoBehaviour:
   slimeBallParticleSystem: {fileID: 6082718438231548772, guid: 986735d0d539fa74ebe7607ed09699b0, type: 3}
   spd: 1
   useLight: 1
+  maxLightIntensity: 0.4
   waitTime: 0.1
 --- !u!61 &2503945122797823402
 BoxCollider2D:
@@ -218,8 +219,8 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 1, g: 0.2783019, b: 0.2783019, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 1, g: 0.7122642, b: 0.7122642, a: 1}
+  m_Intensity: 0
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 000000009d81a6d7
   m_LightCookieSprite: {fileID: 0}
@@ -230,8 +231,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0.2
-  m_PointLightOuterRadius: 0.6
+  m_PointLightInnerRadius: 0.1
+  m_PointLightOuterRadius: 1
   m_PointLightDistance: 3
   m_PointLightQuality: 1
   m_ShapeLightParametricSides: 5
