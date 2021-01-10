@@ -13,6 +13,9 @@ public class OnLoseMenuOptions : MonoBehaviour
 
     public void OnMainMenu()
     {
+        // When you go back to the main menu, save the level you are on
+        PlayerPrefs.SetInt("ChosenLevel", SceneManager.GetActiveScene().buildIndex);
+        // Load scene 0 which is the main menu scene
         SceneManager.LoadScene(0);
     }
 }

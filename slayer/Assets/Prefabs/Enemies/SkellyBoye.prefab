@@ -50,6 +50,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.5
+  skellyBoyeParticleSystem: {fileID: 6082718438231548772, guid: 0c7dc9863695b0947acaf616c19f43f2, type: 3}
   bd: {fileID: 4820360997309483605}
 --- !u!95 &4820360997309483606
 Animator:

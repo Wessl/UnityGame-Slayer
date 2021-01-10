@@ -5,6 +5,8 @@ using UnityEngine;
 public class SkellyBoye : MonoBehaviour
 {
     [SerializeField] private float speed;
+    [Tooltip("The particle system to use when a skellyboye dies")]
+    public GameObject skellyBoyeParticleSystem;
 
     public Rigidbody2D bd;
     // Start is called before the first frame update
@@ -45,6 +47,7 @@ public class SkellyBoye : MonoBehaviour
         // If the collision is from a player attack, die instantly (no lives on this object as of now)
         if (other.transform.CompareTag("SwordAttack") || other.transform.CompareTag("LongSwordAttack"))
         {
+            Instantiate(skellyBoyeParticleSystem, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }
