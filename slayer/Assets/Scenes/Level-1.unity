@@ -1308,6 +1308,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1796305004, guid: 9cc6cc71d6c36e142a6155effd7a7f7a, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8914411577984791400, guid: 9cc6cc71d6c36e142a6155effd7a7f7a, type: 3}
       propertyPath: m_Name
       value: Player
