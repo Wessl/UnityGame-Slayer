@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 402506634559285908}
   - component: {fileID: 3271045473141345690}
   - component: {fileID: 3852609881565608002}
+  - component: {fileID: 7732085035747960824}
   m_Layer: 12
   m_Name: LongSword
   m_TagString: LongSwordAttack
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2436ff9e7498f614982a9941a7ec2f1d, type: 3}
-  m_Color: {r: 0.15686275, g: 0.15686275, b: 0.627451, a: 1}
+  m_Color: {r: 0.75, g: 0.75, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 1
   m_DrawMode: 0
@@ -124,3 +125,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sizeMultiplier: 1
   rotationSpeed: 500
+  flavorText: This sword is slightly curved, and is suitable for swinging from side
+    to side.
+--- !u!114 &7732085035747960824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9211452423854593903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f107593dd15ce97489da13257093b3f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flavorText: This sword is slightly curved, and is suitable for swinging from side
+    to side.

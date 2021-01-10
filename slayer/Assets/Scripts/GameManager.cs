@@ -62,6 +62,8 @@ public class GameManager : MonoBehaviour
                         var atkReference = attackObject.GetComponent<SpriteRenderer>();
                         img.sprite = atkReference.sprite;
                         img.color = atkReference.color;                                 // certain sprites look only look different due to differing color properties, inherit these for consistency
+                        GameObject.Find("NewWeaponFlavorText").GetComponent<Text>().text =
+                            atkReference.GetComponent<GenericAttackObject>().GETFlavorText();
                     }
             }
         }

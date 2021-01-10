@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1211842516513880049}
   - component: {fileID: 5296933230401351706}
   - component: {fileID: 7328014847657575045}
+  - component: {fileID: -353576072727540050}
   m_Layer: 12
   m_Name: ShovelAttack
   m_TagString: SwordAttack
@@ -98,6 +99,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sizeMultiplier: 1
   moveDirection: 1
+  flavorText: This handy tool can be used to dig away various annoying hazards that
+    might litter the ground.
 --- !u!60 &7328014847657575045
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -133,3 +136,17 @@ PolygonCollider2D:
       - {x: 0.018640567, y: -0.15854143}
       - {x: 0.019258954, y: 0.050000004}
       - {x: 0.0695799, y: 0.049568146}
+--- !u!114 &-353576072727540050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211842516513880051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f107593dd15ce97489da13257093b3f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flavorText: This handy tool can be used to dig away various annoying hazards that
+    might litter the ground.

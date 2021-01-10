@@ -17,7 +17,7 @@ public class TurretBullet : MonoBehaviour
     void Update()
     {
         // If this object is too far away from the center field, remove it from the game to not waste performance
-        if (transform.position.magnitude > new Vector3(3, 3, 0).magnitude)
+        if (transform.position.magnitude > 3)
         {
             Destroy(gameObject);
         }

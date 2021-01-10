@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1933917817}
   - component: {fileID: 3791290464320498086}
   - component: {fileID: -5960876394760665889}
+  - component: {fileID: 3849163277685522683}
   m_Layer: 12
   m_Name: DemonicSword
   m_TagString: SwordAttack
@@ -139,3 +140,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sizeMultiplier: 1
   moveDirection: 1
+--- !u!114 &3849163277685522683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211842516513880051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f107593dd15ce97489da13257093b3f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flavorText: A sword corrupted by demonic powers. It's almost itching to eject itself
+    from your hardened grip.

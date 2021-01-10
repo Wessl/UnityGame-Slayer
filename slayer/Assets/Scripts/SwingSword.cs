@@ -7,6 +7,7 @@ public class SwingSword : MonoBehaviour
     // Some changeable sword specific parameters (normal, shortsword, demonic shortsword, etc...)
     [SerializeField] private float sizeMultiplier = 1;
     [SerializeField] private int rotationSpeed = 500;
+    
     // Default point and axis, used for rotating the object
     private Vector3 point = new Vector3(0,0,0);
     private Vector3 axis = new Vector3(0,0,1);
