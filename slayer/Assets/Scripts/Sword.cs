@@ -8,6 +8,8 @@ public class Sword : MonoBehaviour
     [SerializeField] private float sizeMultiplier = 1;
 
     [SerializeField] private int moveDirection = 1;
+
+    [SerializeField] private float pullBackSpeed = -1f;
     // slowly pull back and make invisible, then delete. (alternatively do a shrinking along the length?)
     void Start()
     {
@@ -16,11 +18,11 @@ public class Sword : MonoBehaviour
     void Update()
     {
         Color c = gameObject.GetComponent<SpriteRenderer>().color;
-        c.a = c.a * 0.97f;
+        c.a = c.a - 4f * Time.deltaTime;
         gameObject.GetComponent<SpriteRenderer>().color = c;
         
         // Move back
-        transform.position += transform.up * - 0.002f * moveDirection;
+        transform.position +=  moveDirection * Time.deltaTime * pullBackSpeed * transform.up;
         if (c.a < 0.1f) {
             Destroy(gameObject);
         }
