@@ -16,7 +16,7 @@ TagManager:
   - BoundTrigger
   - EnemySlightlyUnbound
   - EnemyRemains
-  - MetalBallSFX
+  - SFXPlayer
   layers:
   - Default
   - TransparentFX
