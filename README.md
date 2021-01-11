@@ -3,4 +3,8 @@
 
 Currently the main reason for this repository is to sync my progress between my two workstations. ~~and to boost my commit history haha~~
 
+CREDITS:
+
+SFX: Impact by Iwan 'qubodup' Gabovitch http://opengameart.org/users/qubodup 
+
 ![alt text](https://i.imgur.com/AelCzXk.png)
