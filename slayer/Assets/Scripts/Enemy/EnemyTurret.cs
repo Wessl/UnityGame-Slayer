@@ -54,8 +54,11 @@ public class EnemyTurret : MonoBehaviour
         else if (other.transform.CompareTag("BoundTrigger"))    
         {
             waiting = false;
-            Vector2 currentDir = bd.velocity * -1;
-            bd.velocity = currentDir;
+            var d = new Vector3(bd.velocity.x, bd.velocity.y, 0);
+            var v = other.transform.position;
+            var n = v.normalized;
+            var r = d - 2 * Vector3.Dot(n, d) * n;
+            bd.velocity = r;
         }
     }
 
