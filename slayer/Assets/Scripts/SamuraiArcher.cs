@@ -1,0 +1,103 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SamuraiArcher : MonoBehaviour
+{
+    private Transform _playerTransform;
+    private Vector3 playerPos;
+    private Quaternion targetRotation;
+    private Rigidbody2D _bd;
+    public BoxCollider2D _collider;
+    [Tooltip("The prefab that this enemy will fire at the player")]
+    public GameObject arrowPrefab;
+    private GameObject sfx;        // reference to the prefab we will get audio info from
+
+
+    public Animator animController;
+
+    private bool _waiting;
+    private bool _beginning = true;
+
+    void Start()
+    {
+        _bd = GetComponent<Rigidbody2D>();
+        try
+        {
+            _playerTransform = GameObject.FindWithTag("Player").transform;
+            playerPos = _playerTransform.position;
+        }
+        catch (NullReferenceException e)
+        {
+            Debug.Log("Player is dead, thus could not find one with tag player so null");
+        }
+        
+        sfx = GameObject.FindWithTag("SFXPlayer");
+    }
+    
+    // Eggspensive
+    void Update()
+    {
+        if (_beginning)
+        {
+            CreateEnemy();
+        }
+        else
+        {
+            try
+            {
+                _playerTransform = GameObject.FindWithTag("Player").transform;
+            }
+            catch (NullReferenceException e)
+            {
+                Debug.Log("Player is dead, thus could not find one with tag player so null");
+            }
+            if (_playerTransform != null)
+            {
+                targetRotation = CalculateTargetRotation();
+                transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, 9000f * Time.deltaTime);
+            }
+        }
+    }
+
+    void FuckingFireJesusChrist()
+    {
+        var arrow = Instantiate(arrowPrefab, transform.position, targetRotation);
+    }
+
+    Quaternion CalculateTargetRotation()
+    {
+        playerPos = _playerTransform.position;
+        var vectorToTarget = playerPos - transform.position;
+        // get the rotation that points the Z axis forward, and the Y axis 90 degrees away from the target
+        Quaternion targetRotation = Quaternion.LookRotation(forward: Vector3.forward, upwards: vectorToTarget);
+        return targetRotation;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("SwordAttack") || other.CompareTag("LongSwordAttack"))
+        {
+            // Oh, I'm die. Thank you forever.
+            var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
+            sfx1.MetalBallHitTwo();
+            Destroy(gameObject);
+        }
+    }
+    void CreateEnemy()
+    {
+        Color c = gameObject.GetComponentInChildren<SpriteRenderer>().color;
+        c.a += + 0.3f * Time.deltaTime;
+        Debug.Log("c.a is now " + c.a);
+        gameObject.GetComponentInChildren<SpriteRenderer>().color = c;
+        if (c.a > 0.95f)
+        {
+            _beginning = false;  // no more beginning is to say "we're done initializing"
+            _bd.WakeUp();         // enable collisions once it is visible
+            _collider.enabled = true;
+            _waiting = false;    // waiting is to just turn on the behaviour that handles movement
+            animController.SetBool("Fire", true);   // Start animating
+        }
+    }
+}

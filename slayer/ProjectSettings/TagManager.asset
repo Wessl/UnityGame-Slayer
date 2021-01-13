@@ -17,6 +17,7 @@ TagManager:
   - EnemySlightlyUnbound
   - EnemyRemains
   - SFXPlayer
+  - MusicAudioSource
   layers:
   - Default
   - TransparentFX

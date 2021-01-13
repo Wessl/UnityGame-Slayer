@@ -45,7 +45,7 @@ public class SoundMusicOptions : MonoBehaviour
             // Value changed
             _musicValue = _musicSlider.value;
             PlayerPrefs.SetFloat("musicSliderValue", _musicValue);
-
+            GameObject.FindWithTag("MusicAudioSource").GetComponent<MusicVolume>().OnChangeVolume();
         }
     }
 }

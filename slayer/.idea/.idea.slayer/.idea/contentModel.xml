@@ -6,7 +6,7 @@
     <e p="C:\Users\love\Documents\GitHub\UnityGame-Slayer\slayer" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="LightFlickerEffect.cs" t="Include" />
+        <e p="MusicVolume.cs" t="Include" />
         <e p="PlayerPrefsEditor" t="Include">
           <e p="Editor" t="Include">
             <e p="Dialogs" t="Include">
@@ -49,6 +49,7 @@
             <e p="TurretBullet.cs" t="Include" />
           </e>
           <e p="GameManager.cs" t="Include" />
+          <e p="LightFlickerEffect.cs" t="Include" />
           <e p="Menu Shit" t="Include">
             <e p="LevelLister.cs" t="Include" />
             <e p="LevelPicker.cs" t="Include" />
@@ -61,7 +62,9 @@
             <e p="WeaponsLister.cs" t="Include" />
           </e>
           <e p="PlayerController.cs" t="Include" />
+          <e p="SamuraiArcher.cs" t="Include" />
           <e p="SFXControllerEnemy.cs" t="Include" />
+          <e p="Shuriken.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
           <e p="SoundMusicOptions.cs" t="Include" />
           <e p="Timer.cs" t="Include" />
@@ -72,7 +75,6 @@
             <e p="Sword.cs" t="Include" />
           </e>
         </e>
-        <e p="Shuriken.cs" t="Include" />
         <e p="todo.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
