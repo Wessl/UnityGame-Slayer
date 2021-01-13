@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3533722686246316613}
   - component: {fileID: 3533722686246316612}
   - component: {fileID: 3533722686246316611}
+  - component: {fileID: 7683617973410258733}
   m_Layer: 0
   m_Name: Lantern
   m_TagString: Untagged
@@ -110,7 +111,7 @@ MonoBehaviour:
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0
+  m_PointLightInnerRadius: 0.1
   m_PointLightOuterRadius: 1.4
   m_PointLightDistance: 3
   m_PointLightQuality: 1
@@ -124,6 +125,22 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &7683617973410258733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3533722686246316610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88ba46867add955498c51772ef11423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light: {fileID: 0}
+  minIntensity: 0.4
+  maxIntensity: 0.7
+  smoothing: 42
 --- !u!1 &3533722687888055909
 GameObject:
   m_ObjectHideFlags: 0
@@ -135,6 +152,7 @@ GameObject:
   - component: {fileID: 3533722687888055928}
   - component: {fileID: 3533722687888055911}
   - component: {fileID: 3533722687888055910}
+  - component: {fileID: 8275319165536969593}
   m_Layer: 0
   m_Name: Lantern (1)
   m_TagString: Untagged
@@ -248,6 +266,22 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &8275319165536969593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3533722687888055909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88ba46867add955498c51772ef11423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light: {fileID: 0}
+  minIntensity: 0.4
+  maxIntensity: 0.7
+  smoothing: 42
 --- !u!1 &3533722687915365150
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,6 +293,7 @@ GameObject:
   - component: {fileID: 3533722687915365137}
   - component: {fileID: 3533722687915365136}
   - component: {fileID: 3533722687915365151}
+  - component: {fileID: 1869677835536551474}
   m_Layer: 0
   m_Name: Lantern (3)
   m_TagString: Untagged
@@ -372,6 +407,22 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &1869677835536551474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3533722687915365150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88ba46867add955498c51772ef11423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light: {fileID: 0}
+  minIntensity: 0.4
+  maxIntensity: 0.7
+  smoothing: 42
 --- !u!1 &3533722687925737326
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,6 +434,7 @@ GameObject:
   - component: {fileID: 3533722687925737313}
   - component: {fileID: 3533722687925737312}
   - component: {fileID: 3533722687925737327}
+  - component: {fileID: 1724059992569333288}
   m_Layer: 0
   m_Name: Lantern (2)
   m_TagString: Untagged
@@ -496,6 +548,22 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &1724059992569333288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3533722687925737326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88ba46867add955498c51772ef11423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light: {fileID: 0}
+  minIntensity: 0.4
+  maxIntensity: 0.7
+  smoothing: 42
 --- !u!1 &8461091829832132497
 GameObject:
   m_ObjectHideFlags: 0
