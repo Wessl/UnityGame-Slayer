@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
     private GameManager _gm;
     private Vector3 myLocation;
     private int swordSwingFlipper = 1;
+    [Tooltip("0.24 is pretty good for a default value for swords")]
+    [SerializeField] private float attackSpawnDistance = 0.24f;
 
     void Start()
     {
@@ -67,7 +69,7 @@ public class PlayerController : MonoBehaviour
                 
                 if (_attackObject.CompareTag("SwordAttack") || _attackObject.CompareTag("LongSwordAttack"))
                 {
-                    myLocation += vectorToTarget.normalized * 0.24f;
+                    myLocation += vectorToTarget.normalized * attackSpawnDistance;
                 }
                 var obj = Instantiate(_attackObject, myLocation, targetRotation);
                 if (_attackObject.CompareTag("LongSwordAttack"))
@@ -86,7 +88,7 @@ public class PlayerController : MonoBehaviour
                 // If the attack object is any of these two, spawn them slightly in front of the player - 0.24f can be changed, should maybe be a variable
                 if (_attackObject.CompareTag("SwordAttack") || _attackObject.CompareTag("LongSwordAttack"))
                 {
-                    myLocation += transform.up * 0.24f;
+                    myLocation += transform.up * attackSpawnDistance;
                 }
                 var obj = Instantiate(_attackObject, myLocation, currentTransform.rotation);
                 // Special logic needed for "long swords", above "obj" reference is needed for some info
@@ -120,5 +122,10 @@ public class PlayerController : MonoBehaviour
         longsword.SetRotLoc(pos);
         swordSwingFlipper *= -1;
         longsword.FlipAxis(swordSwingFlipper);
+    }
+
+    public void AlterAttackSpawnDistance(float c)
+    {
+        attackSpawnDistance = c;
     }
 }
