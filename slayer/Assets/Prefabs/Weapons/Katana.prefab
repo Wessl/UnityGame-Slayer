@@ -125,7 +125,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sizeMultiplier: 1.3
   rotationSpeed: 500
-  flavorText: A sturdy katana, made from tamahagane steel.
+  disappearSpeed: 0.5
+  canDeflectBullets: 0
 --- !u!114 &4882539566298649916
 MonoBehaviour:
   m_ObjectHideFlags: 0

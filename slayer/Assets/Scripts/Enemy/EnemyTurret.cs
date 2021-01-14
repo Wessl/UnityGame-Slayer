@@ -76,9 +76,9 @@ public class EnemyTurret : MonoBehaviour
     void CreateEnemy()
     {
         Color c = gameObject.GetComponent<SpriteRenderer>().color;
-        c.a = c.a * 1.01f;
+        c.a = c.a + Time.deltaTime * 0.5f;
         gameObject.GetComponent<SpriteRenderer>().color = c;
-        if (c.a > 0.9f)
+        if (c.a > 0.98f)
         {
             beginning = false;  // beginning is to say "we're done initializing"
             bd.WakeUp();        // enable collisions once it is visible

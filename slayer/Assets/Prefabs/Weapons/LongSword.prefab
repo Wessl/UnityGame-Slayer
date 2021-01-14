@@ -125,8 +125,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sizeMultiplier: 1
   rotationSpeed: 500
-  flavorText: This sword is slightly curved, and is suitable for swinging from side
-    to side.
+  disappearSpeed: 0.5
+  canDeflectBullets: 0
 --- !u!114 &7732085035747960824
 MonoBehaviour:
   m_ObjectHideFlags: 0

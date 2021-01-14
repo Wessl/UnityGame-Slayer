@@ -13,11 +13,8 @@ public class SamuraiArcher : MonoBehaviour
     [Tooltip("The prefab that this enemy will fire at the player")]
     public GameObject arrowPrefab;
     private GameObject sfx;        // reference to the prefab we will get audio info from
-
-
+    
     public Animator animController;
-
-    private bool _waiting;
     private bool _beginning = true;
 
     void Start()
@@ -30,7 +27,7 @@ public class SamuraiArcher : MonoBehaviour
         }
         catch (NullReferenceException e)
         {
-            Debug.Log("Player is dead, thus could not find one with tag player so null");
+            Debug.Log("Player is dead, thus could not find one with tag player so null: " + e);
         }
         
         sfx = GameObject.FindWithTag("SFXPlayer");
@@ -51,7 +48,7 @@ public class SamuraiArcher : MonoBehaviour
             }
             catch (NullReferenceException e)
             {
-                Debug.Log("Player is dead, thus could not find one with tag player so null");
+                Debug.Log("Player is dead, thus could not find one with tag player so null: " + e);
             }
             if (_playerTransform != null)
             {
@@ -61,6 +58,7 @@ public class SamuraiArcher : MonoBehaviour
         }
     }
 
+    // Called from archer animation asset as an animation event, on the last frame of the animation
     void FuckingFireJesusChrist()
     {
         var arrow = Instantiate(arrowPrefab, transform.position, targetRotation);
@@ -88,15 +86,13 @@ public class SamuraiArcher : MonoBehaviour
     void CreateEnemy()
     {
         Color c = gameObject.GetComponentInChildren<SpriteRenderer>().color;
-        c.a += + 0.3f * Time.deltaTime;
-        Debug.Log("c.a is now " + c.a);
+        c.a += + 0.5f * Time.deltaTime;
         gameObject.GetComponentInChildren<SpriteRenderer>().color = c;
-        if (c.a > 0.95f)
+        if (c.a > 0.98f)
         {
             _beginning = false;  // no more beginning is to say "we're done initializing"
             _bd.WakeUp();         // enable collisions once it is visible
             _collider.enabled = true;
-            _waiting = false;    // waiting is to just turn on the behaviour that handles movement
             animController.SetBool("Fire", true);   // Start animating
         }
     }

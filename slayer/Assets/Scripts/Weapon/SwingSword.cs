@@ -7,6 +7,8 @@ public class SwingSword : MonoBehaviour
     // Some changeable sword specific parameters (normal, shortsword, demonic shortsword, etc...)
     [SerializeField] private float sizeMultiplier = 1;
     [SerializeField] private int rotationSpeed = 500;
+    [SerializeField] private float disappearSpeed = 0.5f;
+    public bool canDeflectBullets = true;
     
     // Default point and axis, used for rotating the object
     private Vector3 point = new Vector3(0,0,0);
@@ -27,7 +29,7 @@ public class SwingSword : MonoBehaviour
     void Update()
     {
         Color c = gameObject.GetComponent<SpriteRenderer>().color;
-        c.a = c.a * 0.97f;
+        c.a = c.a - disappearSpeed * Time.deltaTime;
         gameObject.GetComponent<SpriteRenderer>().color = c;
         
         // Swing/Rotate sideways
@@ -56,5 +58,10 @@ public class SwingSword : MonoBehaviour
             mySpr.flipX = true;
         }
         
+    }
+
+    public bool BulletReflector()
+    {
+        return canDeflectBullets;
     }
 }
