@@ -17,6 +17,11 @@ public class SamuraiArcher : MonoBehaviour
     public Animator animController;
     private bool _beginning = true;
 
+    void Awake()
+    {
+        gameObject.tag = "Untagged";
+    }
+    
     void Start()
     {
         _bd = GetComponent<Rigidbody2D>();
@@ -94,6 +99,7 @@ public class SamuraiArcher : MonoBehaviour
             _bd.WakeUp();         // enable collisions once it is visible
             _collider.enabled = true;
             animController.SetBool("Fire", true);   // Start animating
+            gameObject.tag = "Enemy";
         }
     }
 }

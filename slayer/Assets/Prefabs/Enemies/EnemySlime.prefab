@@ -138,7 +138,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 2
   m_CollisionDetection: 1
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!95 &3990894808117655916
 Animator:
   serializedVersion: 3
@@ -176,6 +176,7 @@ MonoBehaviour:
   slimeBallParticleSystem: {fileID: 6082718438231548772, guid: 6c88dcdd486e88c42b429719a92cbe39, type: 3}
   spd: 1
   useLight: 0
+  maxLightIntensity: 0.4
   waitTime: 0.1
 --- !u!61 &2503945122797823402
 BoxCollider2D:

@@ -10,6 +10,12 @@ public class SkellyBoye : MonoBehaviour
     private GameObject sfx;        // reference to the prefab we will get audio info from
 
     public Rigidbody2D bd;
+
+    void Awake()
+    {
+        gameObject.tag = "Untagged";
+    }
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +48,7 @@ public class SkellyBoye : MonoBehaviour
         }
         Vector2 v = new Vector2(xdir, 0);
         bd.AddForce(v, ForceMode2D.Impulse);
+        gameObject.tag = "Enemy";
     }
     
     public void OnTriggerEnter2D(Collider2D other)
@@ -53,6 +60,7 @@ public class SkellyBoye : MonoBehaviour
             sfx1.WoodHit();
             Instantiate(skellyBoyeParticleSystem, transform.position, Quaternion.identity);
             Destroy(gameObject);
+            
         }
     }
 }

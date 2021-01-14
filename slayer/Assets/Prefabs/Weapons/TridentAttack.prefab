@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ca32e7d19c29093469ffd48fee0f1168, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5b59cc001f8419d4088cc9314b23055a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -100,6 +100,8 @@ MonoBehaviour:
   sizeMultiplier: 0.85
   moveDirection: 1
   pullBackSpeed: -1.2
+  changePullBackDistance: 1
+  shouldBePulledBackFurther: 0
 --- !u!114 &7469723232596538408
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -15,11 +15,11 @@ C:/Users/love/Documents/GitHub/UnityGame-Slayer/slayer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51961
+64666
 Successfully changed project path to: C:/Users/love/Documents/GitHub/UnityGame-Slayer/slayer
 C:/Users/love/Documents/GitHub/UnityGame-Slayer/slayer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.88 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 66.10 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path D:/ProgramData/Unity Editors/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -36,268 +36,59 @@ Initialize mono
 Mono path[0] = 'D:/ProgramData/Unity Editors/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'D:/ProgramData/Unity Editors/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/ProgramData/Unity Editors/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/ProgramData/Unity Editors/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/ProgramData/Unity Editors/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.031274 seconds.
+Registered in 0.043031 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 65.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 121.68 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.694 seconds
+- Completed reload, in  8.774 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006488 seconds.
+Registered in 0.007490 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 69.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 69.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.286 seconds
+- Completed reload, in  1.423 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2449 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 185.2 MB.
 System memory in use after: 185.4 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2894.
-Total: 2.943100 ms (FindLiveObjects: 0.342800 ms CreateObjectMapping: 0.233400 ms MarkObjects: 2.295600 ms  DeleteObjects: 0.069900 ms)
+Total: 175.746000 ms (FindLiveObjects: 0.470400 ms CreateObjectMapping: 0.388800 ms MarkObjects: 166.970100 ms  DeleteObjects: 7.913000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Images/spear.png
-  artifactKey: Guid(f9d1fd625834a854d864e71f2a42034a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/spear.png using Guid(f9d1fd625834a854d864e71f2a42034a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e08bdf0b92b8c799dd3f4027881fd8f') in 0.178100 seconds
-  Import took 0.183675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.468441 seconds.
-  path: Assets/Images/spear.png
-  artifactKey: Guid(f9d1fd625834a854d864e71f2a42034a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/spear.png using Guid(f9d1fd625834a854d864e71f2a42034a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc463bb19b590f52c271741f39edd4e5') in 0.180020 seconds
-  Import took 0.189197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.720752 seconds.
-  path: Assets/Prefabs/Weapons/SwordAttack 1.prefab
-  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/SwordAttack 1.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b548f96e94d4808f0b31e49a42e55bc') in 0.228269 seconds
-  Import took 0.233784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.467200 seconds.
   path: Assets/Prefabs/Weapons/SpearAttack.prefab
   artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03744912bc38893317033ffa4baa8c3a') in 0.020531 seconds
-  Import took 0.028462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.324361 seconds.
-  path: Assets/Prefabs/Weapons/SpearAttack.prefab
-  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858d4a83b416c0bf048f63bf09ac78dd') in 0.018197 seconds
-  Import took 0.024296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.258939 seconds.
-  path: Assets/Prefabs/Weapons/SpearAttack.prefab
-  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01dfdd8462694aeaa0087040b039b42') in 0.013834 seconds
-  Import took 0.021326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.362244 seconds.
-  path: Assets/Prefabs/Weapons/SpearAttack.prefab
-  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369e0694171049774ba2e4eceb510789') in 0.013015 seconds
-  Import took 0.019103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.413993 seconds.
-  path: Assets/Prefabs/Weapons/SpearAttack.prefab
-  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ecba82bf59fca7e481f501edb55e763') in 0.013449 seconds
-  Import took 0.019786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.221054 seconds.
-  path: Assets/Prefabs/Weapons/SpearAttack.prefab
-  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86dac907f23dbd007273ce2592257103') in 0.012871 seconds
-  Import took 0.019544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.672968 seconds.
-  path: Assets/Prefabs/Weapons/SpearAttack.prefab
-  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecff4ffbe07a83f363b3b376776d072') in 0.013331 seconds
-  Import took 0.022004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.938960 seconds.
-  path: Assets/Prefabs/Weapons/SpearAttack.prefab
-  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7882ef0f5cd4cfdc30b906a3e3443e') in 0.055357 seconds
-  Import took 0.071390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 102.451616 seconds.
-  path: Assets/Prefabs/Weapons/SpearAttack.prefab
-  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30ecadee4aa18195206351e325470e5') in 0.028254 seconds
-  Import took 0.034762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.190562 seconds.
-  path: Assets/Prefabs/Weapons/SpearAttack.prefab
-  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa4ff8f138d433f71df11cdf0df45fa') in 0.023020 seconds
-  Import took 0.032340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.881583 seconds.
-  path: Assets/Prefabs/Weapons/SpearAttack.prefab
-  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357831cfecc25350f8eb41900a38c210') in 0.014123 seconds
-  Import took 0.021272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.454607 seconds.
-  path: Assets/Prefabs/Weapons/SpearAttack.prefab
-  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc866bd4060b2d15c4face8d90409f6d') in 0.016969 seconds
-  Import took 0.022934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.513525 seconds.
-  path: Assets/Prefabs/Weapons/SpearAttack.prefab
-  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9d613b4ce3c66668fb8407dceedfc0') in 0.012745 seconds
-  Import took 0.018544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.622603 seconds.
-  path: Assets/Prefabs/GameManager.prefab
-  artifactKey: Guid(f83bbdb8b995f2b4cab2c350896c524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/GameManager.prefab using Guid(f83bbdb8b995f2b4cab2c350896c524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0719a405f1024e582063220a933f1d87') in 0.026382 seconds
-  Import took 0.033506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Prefabs/GameManager.prefab
-  artifactKey: Guid(f83bbdb8b995f2b4cab2c350896c524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/GameManager.prefab using Guid(f83bbdb8b995f2b4cab2c350896c524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0719a405f1024e582063220a933f1d87') in 0.011529 seconds
-  Import took 0.018500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.591190 seconds.
-  path: Assets/Prefabs/GameManager.prefab
-  artifactKey: Guid(f83bbdb8b995f2b4cab2c350896c524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/GameManager.prefab using Guid(f83bbdb8b995f2b4cab2c350896c524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f081835aaf0a77ac84d0c78cd1651a3') in 0.014565 seconds
-  Import took 0.020800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.108668 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(3de253cb2884db646a734332a9a4d1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(3de253cb2884db646a734332a9a4d1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f86c6ce4a692f8e7cf4b7136517681') in 0.012935 seconds
-  Import took 0.018844 seconds .
+Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bda3bf4548641d2ac7141f5fbb99ac9') in 0.781668 seconds
+  Import took 0.795057 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001850 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.421 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 185.5 MB.
-System memory in use after: 185.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2944.
-Total: 3.009400 ms (FindLiveObjects: 0.296500 ms CreateObjectMapping: 0.124800 ms MarkObjects: 2.568200 ms  DeleteObjects: 0.018300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 132.024187 seconds.
-  path: Assets/Prefabs/Weapons/SpearAttack.prefab
-  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab7a86ba7a9cf5ea24fa9ac2dade3dd') in 0.202586 seconds
-  Import took 0.209183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.360708 seconds.
-  path: Assets/Prefabs/Weapons/SpearAttack.prefab
-  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2be0ea2ad56af7d2847914187c5df5a') in 0.022507 seconds
-  Import took 0.030127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.994229 seconds.
-  path: Assets/Prefabs/Weapons/SpearAttack.prefab
-  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0484a2697425b9c4be66673c177af532') in 0.015502 seconds
-  Import took 0.022362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.615253 seconds.
-  path: Assets/Prefabs/Weapons/SpearAttack.prefab
-  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3485ac32ac012586611e96ab040250') in 0.012137 seconds
-  Import took 0.017676 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001667 seconds.
+Registered in 0.001652 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -307,16 +98,615 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.114 seconds
+- Completed reload, in  1.158 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.5 MB.
+System memory in use after: 185.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2941.
+Total: 2.889600 ms (FindLiveObjects: 0.307600 ms CreateObjectMapping: 0.113000 ms MarkObjects: 2.442700 ms  DeleteObjects: 0.024500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002006 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.296 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.5 MB.
+System memory in use after: 185.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2943.
+Total: 3.065800 ms (FindLiveObjects: 0.495100 ms CreateObjectMapping: 0.136900 ms MarkObjects: 2.378800 ms  DeleteObjects: 0.019000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001708 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.6 MB.
+System memory in use after: 185.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2945.
+Total: 2.662800 ms (FindLiveObjects: 0.302800 ms CreateObjectMapping: 0.092800 ms MarkObjects: 2.244000 ms  DeleteObjects: 0.021500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 301.163312 seconds.
+  path: Assets/Prefabs/Weapons/DemonicSword.prefab
+  artifactKey: Guid(f6a80dca60b12314198d3a6c91122d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/DemonicSword.prefab using Guid(f6a80dca60b12314198d3a6c91122d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067cc4a475e2592f5ad955fe0ea52f70') in 0.218618 seconds
+  Import took 0.226485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Prefabs/Weapons/TriSwordAttack.prefab
+  artifactKey: Guid(dd8b707e143fa214b954fd177a9e5905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/TriSwordAttack.prefab using Guid(dd8b707e143fa214b954fd177a9e5905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84de83f925254f2e9680ca53d60fbda') in 0.029206 seconds
+  Import took 0.035866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Prefabs/Weapons/SwordAttack.prefab
+  artifactKey: Guid(7b080cc4283692f439b106feab9224cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/SwordAttack.prefab using Guid(7b080cc4283692f439b106feab9224cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e59fcd16e04d21a641bcc9995fdef48') in 0.027022 seconds
+  Import took 0.034039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Prefabs/Weapons/TridentAttack.prefab
+  artifactKey: Guid(148e9036c40e0334e8590e5ae8303d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/TridentAttack.prefab using Guid(148e9036c40e0334e8590e5ae8303d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6461a26a3d8249a3d60b9f2ae7af16cc') in 0.027183 seconds
+  Import took 0.033314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.276967 seconds.
+  path: Assets/Prefabs/Weapons/SpearAttack.prefab
+  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6259e339737ff9f509c6b8dfd4da49c') in 0.016111 seconds
+  Import took 0.022680 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001623 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.7 MB.
+System memory in use after: 185.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2983.
+Total: 2.463200 ms (FindLiveObjects: 0.254500 ms CreateObjectMapping: 0.099000 ms MarkObjects: 2.090800 ms  DeleteObjects: 0.017500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001607 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.129 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.6 MB.
+System memory in use after: 185.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2985.
+Total: 2.559000 ms (FindLiveObjects: 0.251100 ms CreateObjectMapping: 0.096200 ms MarkObjects: 2.192800 ms  DeleteObjects: 0.017500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.513805 seconds.
+  path: Assets/Prefabs/Weapons/SpearAttack.prefab
+  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5b0cfe10eecb325adb7fbb1e17a415') in 0.197033 seconds
+  Import took 0.203158 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.872 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.8 MB.
+System memory in use after: 186.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3023.
+Total: 5.747100 ms (FindLiveObjects: 0.487600 ms CreateObjectMapping: 0.150900 ms MarkObjects: 5.077400 ms  DeleteObjects: 0.029300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001565 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.805 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 185.6 MB.
-System memory in use after: 185.9 MB.
+System memory in use before: 185.8 MB.
+System memory in use after: 186.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2982.
-Total: 2.743900 ms (FindLiveObjects: 0.256500 ms CreateObjectMapping: 0.095800 ms MarkObjects: 2.371300 ms  DeleteObjects: 0.018700 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3025.
+Total: 2.746900 ms (FindLiveObjects: 0.264000 ms CreateObjectMapping: 0.099300 ms MarkObjects: 2.359100 ms  DeleteObjects: 0.022500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006852 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.208 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.8 MB.
+System memory in use after: 186.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3027.
+Total: 2.434900 ms (FindLiveObjects: 0.282500 ms CreateObjectMapping: 0.094100 ms MarkObjects: 2.031900 ms  DeleteObjects: 0.025100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003017 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.575 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.8 MB.
+System memory in use after: 186.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3029.
+Total: 2.773700 ms (FindLiveObjects: 0.330500 ms CreateObjectMapping: 0.131500 ms MarkObjects: 2.287900 ms  DeleteObjects: 0.022000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 201.761371 seconds.
+  path: Assets/Prefabs/Weapons/TriSwordAttack.prefab
+  artifactKey: Guid(dd8b707e143fa214b954fd177a9e5905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/TriSwordAttack.prefab using Guid(dd8b707e143fa214b954fd177a9e5905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8258812aa9861a3f9053bdfd442dd1') in 0.209889 seconds
+  Import took 0.215832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Prefabs/Weapons/SwordAttack.prefab
+  artifactKey: Guid(7b080cc4283692f439b106feab9224cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/SwordAttack.prefab using Guid(7b080cc4283692f439b106feab9224cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565023403b54862b6662381370f3ea0a') in 0.012134 seconds
+  Import took 0.018223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Prefabs/Weapons/SpearAttack.prefab
+  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7101d547eb911207152fc83751ac8486') in 0.015741 seconds
+  Import took 0.024620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Prefabs/Weapons/TridentAttack.prefab
+  artifactKey: Guid(148e9036c40e0334e8590e5ae8303d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/TridentAttack.prefab using Guid(148e9036c40e0334e8590e5ae8303d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2c37448b51663dd626e946e238a9ef') in 0.014490 seconds
+  Import took 0.020151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Prefabs/Weapons/DemonicSword.prefab
+  artifactKey: Guid(f6a80dca60b12314198d3a6c91122d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/DemonicSword.prefab using Guid(f6a80dca60b12314198d3a6c91122d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5b3b13741e39777a258197483f175a') in 0.013553 seconds
+  Import took 0.022195 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001623 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.137 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.9 MB.
+System memory in use after: 186.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3067.
+Total: 2.889400 ms (FindLiveObjects: 0.346100 ms CreateObjectMapping: 0.188900 ms MarkObjects: 2.323500 ms  DeleteObjects: 0.029000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.504384 seconds.
+  path: Assets/Prefabs/Weapons/TriSwordAttack.prefab
+  artifactKey: Guid(dd8b707e143fa214b954fd177a9e5905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/TriSwordAttack.prefab using Guid(dd8b707e143fa214b954fd177a9e5905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037a2aa44a0240866d619c0f0659e13d') in 0.198926 seconds
+  Import took 0.205554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Prefabs/Weapons/SwordAttack.prefab
+  artifactKey: Guid(7b080cc4283692f439b106feab9224cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/SwordAttack.prefab using Guid(7b080cc4283692f439b106feab9224cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d110d97baaf868d74820d6b95b4170') in 0.018411 seconds
+  Import took 0.024217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Prefabs/Weapons/SpearAttack.prefab
+  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22cf088fda8c33158a4e1dfdea1a62b') in 0.013200 seconds
+  Import took 0.019174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Prefabs/Weapons/TridentAttack.prefab
+  artifactKey: Guid(148e9036c40e0334e8590e5ae8303d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/TridentAttack.prefab using Guid(148e9036c40e0334e8590e5ae8303d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dcfc99190668b66cb1a0029b4ef2228') in 0.012120 seconds
+  Import took 0.017262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Prefabs/Weapons/DemonicSword.prefab
+  artifactKey: Guid(f6a80dca60b12314198d3a6c91122d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/DemonicSword.prefab using Guid(f6a80dca60b12314198d3a6c91122d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd88af885a1eb8aacd9a8413af7369f8') in 0.014722 seconds
+  Import took 0.022587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 264.656135 seconds.
+  path: Assets/Prefabs/Weapons/SpearAttack.prefab
+  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae4cf8e14cad24365e2d8aa3ebb49ef') in 0.026772 seconds
+  Import took 0.033726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.404159 seconds.
+  path: Assets/Prefabs/Weapons/SpearAttack.prefab
+  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac60cb2e57e3d539806f4f1831dccae4') in 0.014140 seconds
+  Import took 0.023101 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001621 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.149 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.0 MB.
+System memory in use after: 186.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3105.
+Total: 2.946600 ms (FindLiveObjects: 0.326600 ms CreateObjectMapping: 0.166900 ms MarkObjects: 2.432800 ms  DeleteObjects: 0.018700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.453915 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(9cc6cc71d6c36e142a6155effd7a7f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(9cc6cc71d6c36e142a6155effd7a7f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb677baa433cee69fcc1fdc90f56f85') in 0.243941 seconds
+  Import took 0.249720 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001614 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.186 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.2 MB.
+System memory in use after: 186.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3143.
+Total: 2.564400 ms (FindLiveObjects: 0.272700 ms CreateObjectMapping: 0.096300 ms MarkObjects: 2.121200 ms  DeleteObjects: 0.072300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.988961 seconds.
+  path: Assets/Prefabs/Weapons/SpearAttack.prefab
+  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d24020f8dc117e89b357986966d9f4') in 0.222899 seconds
+  Import took 0.229275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.419016 seconds.
+  path: Assets/Prefabs/Weapons/SpearAttack.prefab
+  artifactKey: Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/SpearAttack.prefab using Guid(e71aeb80a6d6beb4da610bec422dcbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d24020f8dc117e89b357986966d9f4') in 0.014099 seconds
+  Import took 0.019594 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006525 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.304 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.3 MB.
+System memory in use after: 186.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3181.
+Total: 3.286900 ms (FindLiveObjects: 0.338800 ms CreateObjectMapping: 0.140600 ms MarkObjects: 2.787300 ms  DeleteObjects: 0.018600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007131 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.251 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.3 MB.
+System memory in use after: 186.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3183.
+Total: 3.301400 ms (FindLiveObjects: 0.398000 ms CreateObjectMapping: 0.149800 ms MarkObjects: 2.730500 ms  DeleteObjects: 0.021600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 230.532933 seconds.
+  path: Assets/Prefabs/Weapons/TridentAttack 1.prefab
+  artifactKey: Guid(f05245dcd1969b14995c6c9da72e3486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/TridentAttack 1.prefab using Guid(f05245dcd1969b14995c6c9da72e3486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26b6f57493c8586a57612d4fe05d0f3') in 0.261439 seconds
+  Import took 0.268887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.964519 seconds.
+  path: Assets/Prefabs/Weapons/ElectroShockTrident.prefab
+  artifactKey: Guid(f05245dcd1969b14995c6c9da72e3486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/ElectroShockTrident.prefab using Guid(f05245dcd1969b14995c6c9da72e3486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf28450c59d281b96118bbe01a32912') in 0.067380 seconds
+  Import took 0.073803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.661176 seconds.
+  path: Assets/Prefabs/Weapons/ElectroShockTrident.prefab
+  artifactKey: Guid(f05245dcd1969b14995c6c9da72e3486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/ElectroShockTrident.prefab using Guid(f05245dcd1969b14995c6c9da72e3486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d2acbafc0f871f689cbcf6448c0bcd') in 0.014252 seconds
+  Import took 0.020650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.852921 seconds.
+  path: Assets/Prefabs/Weapons/ElectroShockTrident.prefab
+  artifactKey: Guid(f05245dcd1969b14995c6c9da72e3486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/ElectroShockTrident.prefab using Guid(f05245dcd1969b14995c6c9da72e3486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced40414be8f316365d712948b7ede59') in 0.037197 seconds
+  Import took 0.048218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.954362 seconds.
+  path: Assets/Prefabs/Weapons/ElectroShockTrident.prefab
+  artifactKey: Guid(f05245dcd1969b14995c6c9da72e3486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/ElectroShockTrident.prefab using Guid(f05245dcd1969b14995c6c9da72e3486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085a0ed070368f2aa99d6ccedcb9ae5a') in 0.036834 seconds
+  Import took 0.044188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.724751 seconds.
+  path: Assets/Prefabs/Weapons/ElectroShockTrident.prefab
+  artifactKey: Guid(f05245dcd1969b14995c6c9da72e3486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/ElectroShockTrident.prefab using Guid(f05245dcd1969b14995c6c9da72e3486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30596ce77dd63598764da3651d5577e2') in 0.016636 seconds
+  Import took 0.025100 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001680 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2340 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.4 MB.
+System memory in use after: 186.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3222.
+Total: 7.420400 ms (FindLiveObjects: 0.383200 ms CreateObjectMapping: 0.478400 ms MarkObjects: 6.528800 ms  DeleteObjects: 0.027600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.615746 seconds.
+  path: Assets/Prefabs/Weapons/ElectroShockTrident.prefab
+  artifactKey: Guid(f05245dcd1969b14995c6c9da72e3486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/ElectroShockTrident.prefab using Guid(f05245dcd1969b14995c6c9da72e3486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a0fab2655ef3bfefbc310dfdfef721') in 0.724027 seconds
+  Import took 1.087512 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001759 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.140 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2340 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.5 MB.
+System memory in use after: 186.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3260.
+Total: 2.754800 ms (FindLiveObjects: 0.316500 ms CreateObjectMapping: 0.132900 ms MarkObjects: 2.277600 ms  DeleteObjects: 0.026600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -17,6 +17,12 @@ public class EnemyShoppe : MonoBehaviour
 
 
     [SerializeField] private float waitTime = 0.1f;
+
+    private void Awake()
+    {
+        gameObject.tag = "Untagged";
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -71,6 +77,7 @@ public class EnemyShoppe : MonoBehaviour
             bd.WakeUp();        // enable collisions once it is visible
             collider.enabled = true;
             waiting = false;    // waiting is to just turn on the behaviour that handles movement
+            gameObject.tag = "Enemy";
         }
     }
 }

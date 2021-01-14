@@ -12,6 +12,7 @@ public class SFXControllerEnemy : MonoBehaviour
     public AudioClip slimeHit;
     public AudioClip woodHit;
     public AudioClip stoneHit;
+    public AudioClip zap;
     public AudioSource audio;
 
     private float sfxVolume;
@@ -44,5 +45,10 @@ public class SFXControllerEnemy : MonoBehaviour
     public void StoneHit()
     {
         audio.PlayOneShot(stoneHit, sfxVolume);   
+    }
+
+    public void Zap()
+    {
+        audio.PlayOneShot(zap, sfxVolume);
     }
 }

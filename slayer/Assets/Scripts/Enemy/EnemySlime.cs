@@ -24,6 +24,12 @@ public class EnemySlime : MonoBehaviour
     
 
     [SerializeField] private float waitTime = 0.1f;
+
+    void Awake()
+    {
+        gameObject.tag = "Untagged";
+    }
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -94,6 +100,7 @@ public class EnemySlime : MonoBehaviour
             bd.WakeUp();         // enable collisions once it is visible
             collider.enabled = true;
             _waiting = false;    // waiting is to just turn on the behaviour that handles movement
+            gameObject.tag = "Enemy";
         }
     }
 }

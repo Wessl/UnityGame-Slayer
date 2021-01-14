@@ -49,6 +49,7 @@ MonoBehaviour:
   slimeHit: {fileID: 8300000, guid: 10c49334988361f4396c11efb63b8c51, type: 3}
   woodHit: {fileID: 8300000, guid: 8bfa006b947b3b247bd3c7422b789911, type: 3}
   stoneHit: {fileID: 8300000, guid: 2ddfc0d4092ef134b98d42d1a46bf3f9, type: 3}
+  zap: {fileID: 8300000, guid: 3d76a75c553f43449a7b52ee3bb46b29, type: 3}
   audio: {fileID: 5622177452437092}
 --- !u!82 &5622177452437092
 AudioSource:

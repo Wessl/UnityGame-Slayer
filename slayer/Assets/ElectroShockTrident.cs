@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class ElectroShockTrident : MonoBehaviour
 {
@@ -14,9 +16,10 @@ public class ElectroShockTrident : MonoBehaviour
     [SerializeField] private float changePullBackDistance = 1f;
     // Following is only for really long weapons
     public bool shouldBePulledBackFurther = false;
-
-    private PlayerController player;
-    // slowly pull back and make invisible, then delete. (alternatively do a shrinking along the length?)
+    [SerializeField] private int bouncesDesired = 2;
+    public GameObject lightning;
+    private GameObject sfx;        // reference to the prefab we will get audio info from
+    
     void Start()
     {
         transform.localScale *= sizeMultiplier;         // change size depending on which weapon it is - collider and all
@@ -25,6 +28,7 @@ public class ElectroShockTrident : MonoBehaviour
         {
             GameObject.FindWithTag("Player").GetComponent<PlayerController>().AlterAttackSpawnDistance(changePullBackDistance);
         }
+        sfx = GameObject.FindWithTag("SFXPlayer");
     }
     void Update()
     {
@@ -37,5 +41,57 @@ public class ElectroShockTrident : MonoBehaviour
         if (c.a < 0.1f) {
             Destroy(gameObject);
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // If I collide with an enemy, cause an electroshock to the next X closest enemies, dealing damage to them as well)
+        if (other.CompareTag("Enemy") || other.CompareTag("EnemySlightlyUnbound"))
+        {
+            var bounceTimes = bouncesDesired;
+            var enemyCollidedWith = other.transform;
+            var t = transform;
+            var allEnemies = GameObject.FindGameObjectsWithTag("Enemy");
+            if (allEnemies.Length <= 1)
+            {   
+                // since there were no subjects to bounce towards, other than the one I collided with just now, return
+                return;
+            }
+            var myTransforms = new Transform[allEnemies.Length];
+            int i = 0;
+            foreach (var go in allEnemies)
+            {
+                myTransforms[i] = go.transform;
+                i += 1;
+                Debug.Log(i);
+            }
+
+            var nClosest = myTransforms.OrderBy(z => (z.position - enemyCollidedWith.position).sqrMagnitude)
+                .Take(2)   //or use .FirstOrDefault();  if you need just one
+                .ToArray();
+            // Now we have the object closest to us in nClosest. Let's shock them. 
+            var startPos = enemyCollidedWith.position;
+            // Take the one 2nd furthest away - the closest will probably be the same object!
+            var endPos = nClosest[1].position;  
+            Vector3 vectorToTarget = endPos - startPos;
+            Quaternion targetRotation = Quaternion.LookRotation(Vector3.forward, vectorToTarget);
+            var lightningAttack = Instantiate(lightning, startPos, targetRotation);
+            Strech(lightningAttack, startPos, endPos, true);
+            // Sfx
+            var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
+            sfx1.Zap();
+        }
+    }
+    public void Strech(GameObject _sprite,Vector3 _initialPosition, Vector3 _finalPosition, bool _mirrorZ) {
+        float width = _sprite.GetComponent<SpriteRenderer>().bounds.size.x;
+        Vector3 centerPos = (_initialPosition + _finalPosition) / 2f;
+        _sprite.transform.position = centerPos;
+        Vector3 direction = _finalPosition - _initialPosition;
+        direction = Vector3.Normalize(direction);
+        _sprite.transform.up = direction;
+        if (_mirrorZ) _sprite.transform.up *= -1f;
+        Vector3 scale = new Vector3(1,1,1);
+        scale.y = Vector3.Distance(_initialPosition, _finalPosition) / width;
+        _sprite.transform.localScale = scale;
     }
 }

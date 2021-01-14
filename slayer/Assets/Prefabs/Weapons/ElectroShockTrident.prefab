@@ -74,8 +74,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ca32e7d19c29093469ffd48fee0f1168, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 9da8200b80475e94ebf00be926c42d8e, type: 3}
+  m_Color: {r: 1, g: 0.9295865, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -152,3 +152,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8258099c57e57da47b2bbe315f4a8a9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sizeMultiplier: 1
+  moveDirection: 1
+  pullBackSpeed: -1
+  changePullBackDistance: 0.3
+  shouldBePulledBackFurther: 1
+  bouncesDesired: 2
+  lightning: {fileID: 6888211956022750900, guid: e0d3a656b0959124dac5114d44171c61, type: 3}

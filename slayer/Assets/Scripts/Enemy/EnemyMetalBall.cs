@@ -29,7 +29,12 @@ public class EnemyMetalBall : MonoBehaviour
     [SerializeField] private float punchStrength = 200f;
     [SerializeField] private float waitTime = 0.1f;
     [SerializeField] private float spinSpeed = 1000f;
-    
+
+
+    void Awake()
+    {
+        gameObject.tag = "Untagged";
+    }
     
     // Start is called before the first frame update
     void Start()
@@ -106,6 +111,7 @@ public class EnemyMetalBall : MonoBehaviour
             bd.WakeUp();         // enable collisions once it is visible
             collider.enabled = true;
             _waiting = false;    // waiting is to just turn on the behaviour that handles movement
+            gameObject.tag = "Enemy";
         }
     }
 }
