@@ -269,8 +269,8 @@ MonoBehaviour:
   enemyToSpawn: {fileID: 5012903121134353429, guid: 49388dc7096d4f047907672c1b3cd490, type: 3}
   spawnTimeDelay: 1
   randomizedDelayFactor: 1
-  spawnX: 0
-  spawnY: 0.9
+  spawnX: 1.6
+  spawnY: 0.8
   timeUntilActivation: 0
   timeUntilDisabling: 30
 --- !u!4 &163366959
@@ -281,7 +281,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 163366957}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.021, y: 0, z: 0}
+  m_LocalPosition: {x: 0.04, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

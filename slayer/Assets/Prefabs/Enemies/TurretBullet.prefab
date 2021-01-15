@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3863256897030732857}
   m_Layer: 8
   m_Name: TurretBullet
-  m_TagString: Enemy
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115,6 +115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.8
+  deflectionSpeedMultiplier: 3
 --- !u!50 &2648663165994583818
 Rigidbody2D:
   serializedVersion: 4

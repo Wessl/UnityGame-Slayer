@@ -103,7 +103,7 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         // If this is the case, the player should die
-        if (other.CompareTag("Enemy") || other.CompareTag("SlimeRed") || other.CompareTag("EnemyRemains"))
+        if (other.CompareTag("Enemy") || other.CompareTag("EnemyRemains") || other.CompareTag("Projectile"))
         {
             // Show the death screen first, then destroy player gameObject
             deathPanel.SetActive(true);

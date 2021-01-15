@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 102
+  controlID: 137
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 38
+  controlID: 64
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 39
+  controlID: 65
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -274,8 +274,8 @@ MonoBehaviour:
     y: 0
     width: 440
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -398,20 +398,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 404c0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 68a8feffbaacfeff78b1feffe2b6fefff464ffff58c3ffffeacaffff54fbffffac46000000480000
+      m_ExpandedIDs: 3ecbfeff8ceefeff7cf0feff38cfffffb4dcffffcadcffffb8e4ffff54fbffff084800008a5f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: WeaponPanel
-        m_OriginalName: WeaponPanel
+        m_Name: EnemySpawner_Slime
+        m_OriginalName: EnemySpawner_Slime
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 18092
+        m_UserData: 37876
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -460,9 +460,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1150.6648, y: 460.52988, z: -138.20045}
+    m_Target: {x: 3.3779776, y: 3.5931396, z: -1.2578061}
     speed: 2
-    m_Value: {x: 1150.6648, y: 460.52988, z: -138.20045}
+    m_Value: {x: 3.7491832, y: 3.8246295, z: -1.228}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -513,9 +513,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 757.4484
+    m_Target: 7.906879
     speed: 2
-    m_Value: 757.4484
+    m_Value: 8.279454
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -573,7 +573,6 @@ MonoBehaviour:
     - {fileID: 6348533207136333494, guid: f82c833f7efea66489325eefecab88a9, type: 2}
     - {fileID: 1845357236948034190, guid: d16b82bcc70230847ac388ea896cae0a, type: 2}
     - {fileID: 4522397410280961413, guid: db24793ac9fdf1a49bbe6cb430bfaea9, type: 2}
-    - {fileID: 5453270780737986917, guid: c341b45164c35ff4597ce19274908a9e, type: 2}
     - {fileID: 2839032309183202959, guid: 592a72937f93a9a479d5e7fec5598af9, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.8121803
@@ -688,26 +687,10 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: f82c833f7efea66489325eefecab88a9, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: dd96d31109fd67847832d7606419f6bf, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 6348533207136333494, guid: f82c833f7efea66489325eefecab88a9, type: 2}
+  - m_Target: {fileID: -4655244317727004049, guid: dd96d31109fd67847832d7606419f6bf, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -758,22 +741,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Enemies
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 60
   m_LastFolders:
-  - Assets/Prefabs/Enemies
+  - Assets/Scenes
   m_LastFoldersGridSize: 60
   m_LastProjectPath: C:\Users\love\Documents\GitHub\UnityGame-Slayer\slayer
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 66}
-    m_SelectedIDs: dc490000
-    m_LastClickedID: 18908
-    m_ExpandedIDs: 00000000684900006a4900006c4900006e49000070490000724900007449000076490000784900009e49000000ca9a3b
+    scrollPos: {x: 0, y: 130}
+    m_SelectedIDs: ea490000
+    m_LastClickedID: 18922
+    m_ExpandedIDs: 000000007e49000080490000824900008449000086490000884900008a4900008c4900008e490000bc49000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -801,7 +784,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000684900006a4900006c4900006e4900007049000072490000744900007649000078490000
+    m_ExpandedIDs: 000000007e49000080490000824900008449000086490000884900008a4900008c4900008e490000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -909,7 +892,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -85922
+  m_LastSelectedObjectID: -9126
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52

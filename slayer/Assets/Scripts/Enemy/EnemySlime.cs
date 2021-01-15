@@ -17,12 +17,11 @@ public class EnemySlime : MonoBehaviour
 
     private bool _waiting = false;
     private bool _beginning = true;
+    [SerializeField] private bool _spawnsRemainsUponDeath = false;
     [SerializeField] private float spd = 1f;
     [SerializeField] private bool useLight = false;
     [SerializeField] private float maxLightIntensity = 0.4f;
     private GameObject sfx;        // reference to the prefab we will get audio info from
-    
-
     [SerializeField] private float waitTime = 0.1f;
 
     void Awake()
@@ -59,7 +58,7 @@ public class EnemySlime : MonoBehaviour
     {
         if (other.transform.CompareTag("SwordAttack") || other.transform.CompareTag("LongSwordAttack"))
         {
-            if (gameObject.CompareTag("SlimeRed"))
+            if (_spawnsRemainsUponDeath)
             {
                 // spawn slime remains
                 var remains = Instantiate(slimeRemains, transform.position, Quaternion.identity);

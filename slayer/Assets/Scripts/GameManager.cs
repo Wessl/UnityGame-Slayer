@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
         // - this needs to happen constantly in order to trigger instant feedback once the last enemy is slain
         if (_spawnersAlive == 0)
         {
-            _enemiesAlive = GameObject.FindGameObjectsWithTag("Enemy").Length + GameObject.FindGameObjectsWithTag("SlimeRed").Length;
+            _enemiesAlive = GameObject.FindGameObjectsWithTag("Enemy").Length;
         }
         
         // When no enemies or spawners are left, we can safely assume current level is completed. 
