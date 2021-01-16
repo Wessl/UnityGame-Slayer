@@ -8,6 +8,8 @@
  * death animations for enemies
  * many small enemies that spawn and move closer to each other
  * some way to tell when a turret is about to fire
+ * Running ninja, throws shurikens at you, actively runs away from the player
+ * rolling slime that leaves a toxic trail behind
  */
 
 /*

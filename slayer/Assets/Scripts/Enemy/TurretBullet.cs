@@ -62,5 +62,11 @@ public class TurretBullet : MonoBehaviour
                 _hasBeenReflectedAlready = true;     // Can only be deflected once by weapons - maybe dumb, for now it's a quick fix that works
             }
         }
+        else if (other.CompareTag("BoundTrigger"))
+        {
+            // Oh, I am collide with bound. Thank you forever. (bullet collides with some kind of boundary, delete)
+            Destroy(gameObject);
+            
+        }
     }
 }

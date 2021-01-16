@@ -63,7 +63,6 @@ public class ElectroShockTrident : MonoBehaviour
             {
                 myTransforms[i] = go.transform;
                 i += 1;
-                Debug.Log(i);
             }
 
             var nClosest = myTransforms.OrderBy(z => (z.position - enemyCollidedWith.position).sqrMagnitude)

@@ -36,7 +36,6 @@ public class SlimeRemains : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log(other.name);
         if (other.name == "ShovelAttack(Clone)")        // Gross - use more versatile approach to detect shovel
         {
             Destroy(gameObject);

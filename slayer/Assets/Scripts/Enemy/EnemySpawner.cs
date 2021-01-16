@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = System.Random;
@@ -27,6 +28,11 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] public int timeUntilDisabling;
 
     private bool spawnerActivated = false;
+
+    [Tooltip("For levels where there are obstructions that you can't spawn inside")]
+    public bool checkSpawnLocations = false;
+    public GameObject spawnLocationChecker;
+    public Collider2D[] illegalColliderSpawns;
     
     // Start is called before the first frame update
     void Start()
@@ -55,7 +61,26 @@ public class EnemySpawner : MonoBehaviour
         var spawnPosition = new Vector2(currentPos.x, currentPos.y);
         spawnPosition.x += UnityEngine.Random.Range(-1f * spawnX, spawnX);
         spawnPosition.y += UnityEngine.Random.Range(-1f * spawnY, spawnY);
-        
+
+        // Check if the randomized location overlaps with any illegal spawning areas
+        if (checkSpawnLocations)
+        {
+            // If this reference point is on top of a "Default" layer, we are probably touching something we shouldn't, so:
+            var overlappingBox = Physics2D.BoxCast(spawnPosition, new Vector2(0.1f, 0.1f), 0f, Vector2.up);
+            Physics2D.SyncTransforms();
+            foreach (var illegalCollider in illegalColliderSpawns)
+            {
+                if (overlappingBox.collider == illegalCollider)
+                {
+                    // Move over by X units to some random point on a circle scaled down slightly
+                    var rand = UnityEngine.Random.insideUnitCircle.normalized * 0.5f;
+                    Debug.Log("Spawn location invalid, Moving over by " + rand.ToString());
+                    spawnPosition += rand; 
+                }
+            }
+                
+            
+        }
 
         Instantiate(enemyToSpawn, spawnPosition, Quaternion.identity);
         var randomizedDelay = UnityEngine.Random.Range(0, randomizedDelayFactor);
