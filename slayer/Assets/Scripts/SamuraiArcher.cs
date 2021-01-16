@@ -13,6 +13,7 @@ public class SamuraiArcher : MonoBehaviour
     [Tooltip("The prefab that this enemy will fire at the player")]
     public GameObject arrowPrefab;
     private GameObject sfx;        // reference to the prefab we will get audio info from
+    public GameObject deathParticleSystem;
     
     public Animator animController;
     private bool _beginning = true;
@@ -85,6 +86,7 @@ public class SamuraiArcher : MonoBehaviour
             // Oh, I'm die. Thank you forever.
             var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
             sfx1.MetalBallHitTwo();
+            Instantiate(deathParticleSystem, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

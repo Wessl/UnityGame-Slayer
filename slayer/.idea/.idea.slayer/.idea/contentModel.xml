@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="ElectroShockTrident.cs" t="Include" />
+        <e p="LevelText.cs" t="Include" />
         <e p="Lightning.cs" t="Include" />
         <e p="MusicVolume.cs" t="Include" />
         <e p="PlayerPrefsEditor" t="Include">

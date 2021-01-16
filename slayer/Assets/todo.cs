@@ -1,7 +1,5 @@
 ﻿/*
  * TODO:
- * When you die, you get a screen that pops up that says how long you lived for along with hichscore/enemies killed?
- * enemies that take multiple hits to kill
  * keep high scores online from all players
  * better button graphics
  * turn enemy sprites around if they are running in a particular direction, e.g. slimes so they look like they arerunning in the right direction
@@ -29,4 +27,6 @@
  * scooplike weapon that can be used to scoop away lava slime remains
  * enemies with different kinds of movement, say hopping from place to place or just something different from what I have now
  * background with lanterns that only light up that part of the scene
+ * When you die, you get a screen that pops up that says how long you lived for along with hichscore/enemies killed?
+ * enemies that take multiple hits to kill
  * */

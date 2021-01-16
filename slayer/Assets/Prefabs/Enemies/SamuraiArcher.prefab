@@ -150,8 +150,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _collider: {fileID: 8146776898477828501}
   arrowPrefab: {fileID: 2648663165994583814, guid: 256302f1ef1666d45a02d1a496cfb75d, type: 3}
+  deathParticleSystem: {fileID: 6082718438231548772, guid: 0c7dc9863695b0947acaf616c19f43f2, type: 3}
   animController: {fileID: 200411466620343513}
-  rotateCheckRefreshTime: 0.1
 --- !u!50 &7644037942820907674
 Rigidbody2D:
   serializedVersion: 4
