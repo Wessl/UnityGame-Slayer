@@ -65,27 +65,36 @@ public class EnemySpawner : MonoBehaviour
         // Check if the randomized location overlaps with any illegal spawning areas
         if (checkSpawnLocations)
         {
-            // If this reference point is on top of a "Default" layer, we are probably touching something we shouldn't, so:
-            var overlappingBox = Physics2D.BoxCast(spawnPosition, new Vector2(0.1f, 0.1f), 0f, Vector2.up);
-            Physics2D.SyncTransforms();
-            foreach (var illegalCollider in illegalColliderSpawns)
+            if (!IsValidSpawnLocation(spawnPosition))
             {
-                if (overlappingBox.collider == illegalCollider)
-                {
-                    // Move over by X units to some random point on a circle scaled down slightly
-                    var rand = UnityEngine.Random.insideUnitCircle.normalized * 0.5f;
-                    Debug.Log("Spawn location invalid, Moving over by " + rand.ToString());
-                    spawnPosition += rand; 
-                }
+                StartCoroutine(Spawn());
             }
-                
-            
+            else
+            {
+                Instantiate(enemyToSpawn, spawnPosition, Quaternion.identity);
+                var randomizedDelay = UnityEngine.Random.Range(0, randomizedDelayFactor);
+                yield return new WaitForSeconds(spawnTimeDelay + randomizedDelay);
+                waiting = false;
+            }
         }
+    }
 
-        Instantiate(enemyToSpawn, spawnPosition, Quaternion.identity);
-        var randomizedDelay = UnityEngine.Random.Range(0, randomizedDelayFactor);
-        yield return new WaitForSeconds(spawnTimeDelay + randomizedDelay);
-        waiting = false;
+    private bool IsValidSpawnLocation(Vector2 spawnPosition)
+    {
+        // If this reference point is on top of a "Default" layer, we are probably touching something we shouldn't, so:
+        var overlappingBox = Physics2D.BoxCast(spawnPosition, new Vector2(0.1f, 0.1f), 0f, Vector2.up);
+        Physics2D.SyncTransforms();
+        foreach (var illegalCollider in illegalColliderSpawns)
+       {
+           if (overlappingBox.collider == illegalCollider)
+           {
+               // Move over by X units to some random point on a circle scaled down slightly
+               var rand = UnityEngine.Random.insideUnitCircle.normalized * 0.5f;
+               Debug.Log("Spawn location invalid, trying again");
+               return false;
+           }
+       }
+        return true;
     }
 
 

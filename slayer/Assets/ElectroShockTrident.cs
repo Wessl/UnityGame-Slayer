@@ -19,6 +19,7 @@ public class ElectroShockTrident : MonoBehaviour
     [SerializeField] private int bouncesDesired = 2;
     public GameObject lightning;
     private GameObject sfx;        // reference to the prefab we will get audio info from
+    [SerializeField] private float maxLightningRange;
     
     void Start()
     {
@@ -73,12 +74,17 @@ public class ElectroShockTrident : MonoBehaviour
             // Take the one 2nd furthest away - the closest will probably be the same object!
             var endPos = nClosest[1].position;  
             Vector3 vectorToTarget = endPos - startPos;
-            Quaternion targetRotation = Quaternion.LookRotation(Vector3.forward, vectorToTarget);
-            var lightningAttack = Instantiate(lightning, startPos, targetRotation);
-            Strech(lightningAttack, startPos, endPos, true);
-            // Sfx
-            var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
-            sfx1.Zap();
+            // Limit the range - only then does the actual lightning attack occur
+            if (vectorToTarget.magnitude < maxLightningRange)
+            { 
+                Quaternion targetRotation = Quaternion.LookRotation(Vector3.forward, vectorToTarget);
+                var lightningAttack = Instantiate(lightning, startPos, targetRotation);
+                Strech(lightningAttack, startPos, endPos, true);
+                // Sfx
+                var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
+                sfx1.Zap();  
+            }
+            
         }
     }
     public void Strech(GameObject _sprite,Vector3 _initialPosition, Vector3 _finalPosition, bool _mirrorZ) {
