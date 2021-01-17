@@ -30,6 +30,7 @@ public class EnemyMetalBall : MonoBehaviour
     [SerializeField] private float waitTime = 0.1f;
     [SerializeField] private float spinSpeed = 1000f;
 
+    
 
     void Awake()
     {

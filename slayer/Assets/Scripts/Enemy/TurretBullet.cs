@@ -59,7 +59,7 @@ public class TurretBullet : MonoBehaviour
                 var n = v.normalized;
                 var r = d - n;
                 bd.velocity = r * deflectionSpeedMultiplier;
-                _hasBeenReflectedAlready = true;     // Can only be deflected once by weapons - maybe dumb, for now it's a quick fix that works
+                //_hasBeenReflectedAlready = true;     // Can only be deflected once by weapons - maybe dumb, for now it's a quick fix that works
             }
         }
         else if (other.CompareTag("BoundTrigger"))

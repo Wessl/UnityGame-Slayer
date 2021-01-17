@@ -34,6 +34,7 @@ public class EnemySpawner : MonoBehaviour
     public GameObject spawnLocationChecker;
     public Collider2D[] illegalColliderSpawns;
     
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -76,6 +77,13 @@ public class EnemySpawner : MonoBehaviour
                 yield return new WaitForSeconds(spawnTimeDelay + randomizedDelay);
                 waiting = false;
             }
+        }
+        else
+        {
+            Instantiate(enemyToSpawn, spawnPosition, Quaternion.identity);
+            var randomizedDelay = UnityEngine.Random.Range(0, randomizedDelayFactor);
+            yield return new WaitForSeconds(spawnTimeDelay + randomizedDelay);
+            waiting = false;
         }
     }
 
