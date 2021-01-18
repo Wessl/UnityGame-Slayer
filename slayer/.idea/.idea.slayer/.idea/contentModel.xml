@@ -10,6 +10,7 @@
         <e p="LevelText.cs" t="Include" />
         <e p="Lightning.cs" t="Include" />
         <e p="MusicVolume.cs" t="Include" />
+        <e p="PaintEnemy.cs" t="Include" />
         <e p="PlayerPrefsEditor" t="Include">
           <e p="Editor" t="Include">
             <e p="Dialogs" t="Include">
