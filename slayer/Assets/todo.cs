@@ -9,7 +9,8 @@
  * many small enemies that spawn and move closer to each other
  * some way to tell when a turret is about to fire
  * Running ninja, throws shurikens at you, actively runs away from the player
- * rolling slime that leaves a toxic trail behind
+ * If you touch a color, you inherit the color and they can mix rbg values - multiplicatively?. So, if you get a blue and then a yellow, you will become a greenish color (eating up the color on the ground with some particule effects to accompany it too. For each one you touch, you should be slowed by some % for X seconds. Either you die at 100%, or become frozen in stone, or just stuck. Or you dont get slowed, and some other effect happens - like a colored tint on the screen that gets progressively worse if you get more colors. Or idk something else
+ * Final levels could have some kind of hazards spawning. im thinking giant lava beams that spawn with '!' indicators and you have to move out of
  */
 
 /*
@@ -31,4 +32,5 @@
  * background with lanterns that only light up that part of the scene
  * When you die, you get a screen that pops up that says how long you lived for along with hichscore/enemies killed?
  * enemies that take multiple hits to kill
+ * rolling slime that leaves a toxic trail behind - kinda did this idea with the paintbrush
  * */

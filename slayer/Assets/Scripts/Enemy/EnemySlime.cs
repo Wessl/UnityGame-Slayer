@@ -63,7 +63,7 @@ public class EnemySlime : MonoBehaviour
                 // spawn slime remains
                 var remains = Instantiate(slimeRemains, transform.position, Quaternion.identity);
                 // let slime remains inherit light settings
-                remains.GetComponent<SlimeRemains>().SetLightSettings(_myLight);
+                remains.GetComponent<EnemyRemains>().SetLightSettings(_myLight);
             }
             // Instantiate death effect particle system AND sfx
             var sfx1 = sfx.GetComponent<SFXControllerEnemy>();

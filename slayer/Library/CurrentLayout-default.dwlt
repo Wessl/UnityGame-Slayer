@@ -400,7 +400,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 32faffff54fbffff44450000564500008e450000
+      m_ExpandedIDs: 5c49ffffe4b40000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -452,17 +452,17 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: 1641f8e1d20d4bd46a54435d49f31484
   m_Gizmos: 1
-  m_OverrideSceneCullingMask: 6917529027641081856
-  m_SceneIsLit: 1
+  m_OverrideSceneCullingMask: 0
+  m_SceneIsLit: 0
   m_SceneLighting: 1
   m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.58805406, y: 0.10178133, z: -1.0080093}
+    m_Target: {x: 0.374, y: 0.0054983348, z: 0}
     speed: 2
-    m_Value: {x: 0.58805406, y: 0.10178133, z: -1.0080093}
+    m_Value: {x: 0.374, y: 0.0054983348, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -474,7 +474,7 @@ MonoBehaviour:
   m_SceneViewState:
     m_AlwaysRefresh: 0
     showFog: 1
-    showSkybox: 1
+    showSkybox: 0
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -513,9 +513,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.0449636
+    m_Target: 0.2509775
     speed: 2
-    m_Value: 1.0449636
+    m_Value: 0.2509775
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -787,10 +787,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 18490000
-    m_LastClickedID: 18712
-    m_ExpandedIDs: 00000000124900001449000016490000184900001a4900001c4900001e49000020490000224900005849000000ca9a3b
+    scrollPos: {x: 0, y: 82}
+    m_SelectedIDs: 60490000
+    m_LastClickedID: 18784
+    m_ExpandedIDs: 000000005a4900005c4900005e49000060490000624900006449000066490000684900006a490000a049000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -818,7 +818,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000124900001449000016490000184900001a4900001c4900001e4900002049000022490000
+    m_ExpandedIDs: 000000005a4900005c4900005e49000060490000624900006449000066490000684900006a490000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -926,7 +926,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 17806
+  m_LastSelectedObjectID: 34454
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -959,7 +959,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 709
+  m_LastVerticalScrollValue: 712
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0

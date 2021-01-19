@@ -55,6 +55,9 @@ TagManager:
   - name: Background
     uniqueID: 3618013597
     locked: 0
+  - name: BehindSprites
+    uniqueID: 3114100505
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
