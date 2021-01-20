@@ -5,8 +5,9 @@ Currently the main reason for this repository is to sync my progress between my 
 
 CREDITS:
 
-SFX: "Impact" by Iwan 'qubodup' Gabovitch http://opengameart.org/users/qubodup 
+SFX: "Impact" by Iwan 'qubodup' Gabovitch (http://opengameart.org/users/qubodup)
 
-Music: Main menu: "Forest" by syncopika https://opengameart.org/content/forest
+Music:            5 Action chiptunes by Juhani Junkala (https://opengameart.org/content/5-chiptunes-action)
+Main menu music:  "Borealis" by Cosmin Mirza (cosminmirza.com)
 
 ![alt text](https://i.imgur.com/AelCzXk.png)
