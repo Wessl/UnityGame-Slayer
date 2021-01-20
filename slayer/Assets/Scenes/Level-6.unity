@@ -395,6 +395,9 @@ MonoBehaviour:
   spawnY: 0.9
   timeUntilActivation: 0
   timeUntilDisabling: 40
+  checkSpawnLocations: 0
+  spawnLocationChecker: {fileID: 0}
+  illegalColliderSpawns: []
 --- !u!4 &309607724
 Transform:
   m_ObjectHideFlags: 0
@@ -466,6 +469,67 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.0713615, y: 0.3774519}
   m_EdgeRadius: 0
+--- !u!1001 &482285998
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2550258069549060798, guid: bde6a49f57301b246a71e068419370e1, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ee5a2580b7f4be945a66fd5a924717d9, type: 3}
+    - target: {fileID: 8479719575948297944, guid: bde6a49f57301b246a71e068419370e1, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479719575948297944, guid: bde6a49f57301b246a71e068419370e1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479719575948297944, guid: bde6a49f57301b246a71e068419370e1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479719575948297944, guid: bde6a49f57301b246a71e068419370e1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479719575948297944, guid: bde6a49f57301b246a71e068419370e1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479719575948297944, guid: bde6a49f57301b246a71e068419370e1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479719575948297944, guid: bde6a49f57301b246a71e068419370e1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479719575948297944, guid: bde6a49f57301b246a71e068419370e1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479719575948297944, guid: bde6a49f57301b246a71e068419370e1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479719575948297944, guid: bde6a49f57301b246a71e068419370e1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479719575948297944, guid: bde6a49f57301b246a71e068419370e1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479719575948297947, guid: bde6a49f57301b246a71e068419370e1, type: 3}
+      propertyPath: m_Name
+      value: MusicPlayer
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bde6a49f57301b246a71e068419370e1, type: 3}
 --- !u!1 &594642179
 GameObject:
   m_ObjectHideFlags: 0
@@ -984,6 +1048,9 @@ MonoBehaviour:
   spawnY: 0.8
   timeUntilActivation: 0
   timeUntilDisabling: 40
+  checkSpawnLocations: 0
+  spawnLocationChecker: {fileID: 0}
+  illegalColliderSpawns: []
 --- !u!4 &1625812882
 Transform:
   m_ObjectHideFlags: 0
@@ -1291,6 +1358,9 @@ MonoBehaviour:
   spawnY: 0.9
   timeUntilActivation: 0
   timeUntilDisabling: 40
+  checkSpawnLocations: 0
+  spawnLocationChecker: {fileID: 0}
+  illegalColliderSpawns: []
 --- !u!4 &2051857657
 Transform:
   m_ObjectHideFlags: 0
@@ -1369,6 +1439,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3533722686246316611, guid: 3f573c68a73d366459bc497010090948, type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533722687888055910, guid: 3f573c68a73d366459bc497010090948, type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533722687888055910, guid: 3f573c68a73d366459bc497010090948, type: 3}
+      propertyPath: m_LightVolumeOpacity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533722687915365151, guid: 3f573c68a73d366459bc497010090948, type: 3}
+      propertyPath: m_LightVolumeOpacity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533722687925737327, guid: 3f573c68a73d366459bc497010090948, type: 3}
+      propertyPath: m_LightVolumeOpacity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7742145239488327512, guid: 3f573c68a73d366459bc497010090948, type: 3}
       propertyPath: m_RootOrder
       value: 10
