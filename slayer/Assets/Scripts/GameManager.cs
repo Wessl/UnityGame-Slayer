@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     private int _spawnersAlive;
     private bool _waiting = false;
     private bool _won     = false;
+    private GameObject _musicPlayer;
     
     // GameObjects assigned via editor
     public GameObject winPanel;             // The panel that shows up once a level has been won
@@ -20,6 +21,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         _spawnersAlive = GameObject.FindGameObjectsWithTag("Spawner").Length;
+        _musicPlayer = GameObject.FindWithTag("MusicPlayer");
     }
 
     // Update is called once per frame
@@ -74,6 +76,8 @@ public class GameManager : MonoBehaviour
         }
 
         winPanel.SetActive(true);
+        // On the Music Player, get the Music Handler component script an activate the victory song
+        _musicPlayer.GetComponent<MusicHandler>().OnLevelVictory();
         
     }
 

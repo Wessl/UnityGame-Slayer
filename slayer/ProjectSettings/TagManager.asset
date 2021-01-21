@@ -18,6 +18,7 @@ TagManager:
   - SFXPlayer
   - MusicAudioSource
   - Projectile
+  - MusicPlayer
   layers:
   - Default
   - TransparentFX
