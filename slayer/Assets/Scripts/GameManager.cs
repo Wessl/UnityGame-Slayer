@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         _spawnersAlive = GameObject.FindGameObjectsWithTag("Spawner").Length;
+        _enemiesAlive = GameObject.FindGameObjectsWithTag("Enemy").Length;
         _musicPlayer = GameObject.FindWithTag("MusicPlayer");
     }
 

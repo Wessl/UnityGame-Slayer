@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 130
+  controlID: 134
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 58
+  controlID: 70
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 59
+  controlID: 71
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -400,7 +400,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6c71ffff58c9ffff54fbffff
+      m_ExpandedIDs: c8b3feffd8b3feffa0c4feffe6d2feffd257ffffe257ffffba59ffff22c3ffff5ac8ffff84caffff8accffff34fbffff325300008c530000588800007288000082a100000ca200006ca3000084b60000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -460,9 +460,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.16705143, y: -0.069206856, z: -45.901684}
+    m_Target: {x: 671.02435, y: 1023.5808, z: -178.89508}
     speed: 2
-    m_Value: {x: 0.16705143, y: -0.069206856, z: -45.901684}
+    m_Value: {x: 671.02435, y: 1023.5808, z: -178.89508}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -504,7 +504,7 @@ MonoBehaviour:
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0.1, y: 0.1}
+      m_Size: {x: 0.08, y: 0.08}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
@@ -513,9 +513,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.2317157
+    m_Target: 536.24646
     speed: 2
-    m_Value: 1.2317157
+    m_Value: 536.24646
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -722,9 +722,9 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: c5155f4eecb748d46a97a00419f6cf87, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: 13fe6ba3b24804a47ac0fe7a2ee8bea2, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 4382535653425268135, guid: c5155f4eecb748d46a97a00419f6cf87, type: 2}
+  - m_Target: {fileID: 5239694698363752242, guid: 13fe6ba3b24804a47ac0fe7a2ee8bea2, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -775,22 +775,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts/Enemy
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 60
   m_LastFolders:
-  - Assets
+  - Assets/Scripts/Enemy
   m_LastFoldersGridSize: 60
   m_LastProjectPath: C:\Users\love\Documents\GitHub\UnityGame-Slayer\slayer
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 10490000
-    m_LastClickedID: 18704
-    m_ExpandedIDs: 00000000d6480000d8480000da480000dc480000de480000e0480000e2480000e4480000e64800001049000000ca9a3b
+    scrollPos: {x: 0, y: 194}
+    m_SelectedIDs: a2510000
+    m_LastClickedID: 20898
+    m_ExpandedIDs: 00000000b4480000b6480000b8480000ba480000bc480000be480000c0480000c2480000c4480000ee48000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -818,7 +818,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d6480000d8480000da480000dc480000de480000e0480000e2480000e4480000e6480000
+    m_ExpandedIDs: 00000000b4480000b6480000b8480000ba480000bc480000be480000c0480000c2480000c4480000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -846,7 +846,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300000e4000003c5f0000c2480000
+    m_ExpandedInstanceIDs: c62300000e4000003c5f0000c248000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -926,7 +926,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -36754
+  m_LastSelectedObjectID: 34930
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52

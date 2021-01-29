@@ -17,10 +17,12 @@ public class EnemySlime : MonoBehaviour
 
     private bool _waiting = false;
     private bool _beginning = true;
+    public int _livesLeft = 1;
     [SerializeField] private bool _spawnsRemainsUponDeath = false;
     [SerializeField] private float spd = 1f;
     [SerializeField] private bool useLight = false;
     [SerializeField] private float maxLightIntensity = 0.4f;
+    [SerializeField] private float punchStrength = 200f;
     private GameObject sfx;        // reference to the prefab we will get audio info from
     [SerializeField] private float waitTime = 0.1f;
 
@@ -56,20 +58,36 @@ public class EnemySlime : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
+        var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
+        var pos = transform.position;
         if (other.transform.CompareTag("SwordAttack") || other.transform.CompareTag("LongSwordAttack"))
         {
-            if (_spawnsRemainsUponDeath)
+            _livesLeft -= 1;
+            if (_livesLeft <= 0)    // This is the killing blow
             {
-                // spawn slime remains
-                var remains = Instantiate(slimeRemains, transform.position, Quaternion.identity);
-                // let slime remains inherit light settings
-                remains.GetComponent<EnemyRemains>().SetLightSettings(_myLight);
+               if (_spawnsRemainsUponDeath)
+               {
+                   // spawn slime remains
+                   var remains = Instantiate(slimeRemains, pos, Quaternion.identity);
+                   // let slime remains inherit light settings
+                   remains.GetComponent<EnemyRemains>().SetLightSettings(_myLight);
+               }
+               // Instantiate death effect particle system AND sfx
+               sfx1.SlimeHit();
+               Instantiate(slimeBallParticleSystem, pos, Quaternion.identity);
+               Destroy(gameObject); 
             }
-            // Instantiate death effect particle system AND sfx
-            var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
-            sfx1.SlimeHit();
-            Instantiate(slimeBallParticleSystem, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            else // Not the killing blow
+            {
+                // Move me slightly
+                var vectorFromPlayer = pos - other.transform.position;
+                bd.AddForce(vectorFromPlayer.normalized * punchStrength);
+                // Audio
+                sfx1.SlimeHit();
+                // Gimme some particles too
+                Instantiate(slimeBallParticleSystem, transform.position, Quaternion.identity);
+            }
+            
         }
     }
 
