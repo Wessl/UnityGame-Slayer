@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7914277751092923576}
   - component: {fileID: 402506634559285908}
-  - component: {fileID: 3271045473141345690}
   - component: {fileID: 3852609881565608002}
   - component: {fileID: 7732085035747960824}
+  - component: {fileID: 1068029877664852449}
   m_Layer: 12
   m_Name: Fan
   m_TagString: LongSwordAttack
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 9211452423854593903}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: -1, z: 1}
+  m_LocalScale: {x: 1.15, y: -1.15, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -85,32 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3271045473141345690
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9211452423854593903}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.006809175, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
-    newSize: {x: 0.32, y: 0.32}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.28994846, y: 0.32}
-  m_EdgeRadius: 0
 --- !u!114 &3852609881565608002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,8 +98,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sizeMultiplier: 1
-  rotationSpeed: 700
+  rotationSpeed: 600
   disappearSpeed: 6
+  canDeflectBullets: 1
 --- !u!114 &7732085035747960824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,3 +115,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flavorText: Fan away all your worries, as fleeting as the wind... Oh, and enemy
     projectiles. Fan those away too.
+--- !u!60 &1068029877664852449
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9211452423854593903}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.02063077, y: 0.16}
+      - {x: -0.020502575, y: 0.0110333655}
+      - {x: -0.13432199, y: -0.034039706}
+      - {x: -0.13622406, y: -0.07328628}
+      - {x: -0.097397104, y: -0.11559931}
+      - {x: -0.031063952, y: -0.16}
+      - {x: 0.049999997, y: -0.16}
+      - {x: 0.07, y: -0.14999999}
+      - {x: 0.14866787, y: -0.06993513}
+      - {x: 0.14858755, y: -0.041412443}
+      - {x: 0.0335121, y: 0.011092186}
+      - {x: 0.033483878, y: 0.15904896}

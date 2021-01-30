@@ -83,6 +83,7 @@
             <e p="Sword.cs" t="Include" />
           </e>
         </e>
+        <e p="ShinNin.cs" t="Include" />
         <e p="todo.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />

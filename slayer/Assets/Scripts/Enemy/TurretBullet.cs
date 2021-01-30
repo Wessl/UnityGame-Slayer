@@ -52,14 +52,10 @@ public class TurretBullet : MonoBehaviour
             {
                 Debug.Log(e + ", was caught in TurretBullet in OnTriggerEnter2D");
             }
-            if (reflects)
+            if (reflects && !_hasBeenReflectedAlready)
             {
-                var d = transform.position;
-                var v = _playerPos;     // Normally we would want the point of collision, but now we just want to fuck off directly away from the player
-                var n = v.normalized;
-                var r = d - n;
-                bd.velocity = r * deflectionSpeedMultiplier;
-                //_hasBeenReflectedAlready = true;     // Can only be deflected once by weapons - maybe dumb, for now it's a quick fix that works
+                bd.velocity *= -1.5f;
+                _hasBeenReflectedAlready = true;     // Can only be deflected once by weapons - maybe dumb, for now it's a quick fix that works
             }
         }
         else if (other.CompareTag("BoundTrigger"))
