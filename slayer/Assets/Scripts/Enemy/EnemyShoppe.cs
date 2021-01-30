@@ -47,7 +47,7 @@ public class EnemyShoppe : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.transform.CompareTag("SwordAttack") || other.transform.CompareTag("LongSwordAttack"))
+        if (other.transform.CompareTag("SwordAttack") || other.transform.CompareTag("LongSwordAttack") || other.transform.CompareTag("Lightning"))
         {
             var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
             sfx1.WoodHit();

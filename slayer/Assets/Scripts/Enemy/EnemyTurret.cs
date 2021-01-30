@@ -51,7 +51,7 @@ public class EnemyTurret : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     {
         // If the collision is from a sword, die instantly (no lives on this object as of now)
-        if (other.transform.CompareTag("SwordAttack") || other.transform.CompareTag("LongSwordAttack"))
+        if (other.transform.CompareTag("SwordAttack") || other.transform.CompareTag("LongSwordAttack") || other.transform.CompareTag("Lightning"))
         {
             var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
             sfx1.StoneHit();

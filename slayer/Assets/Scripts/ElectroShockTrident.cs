@@ -79,7 +79,7 @@ public class ElectroShockTrident : MonoBehaviour
             { 
                 Quaternion targetRotation = Quaternion.LookRotation(Vector3.forward, vectorToTarget);
                 var lightningAttack = Instantiate(lightning, startPos, targetRotation);
-                Strech(lightningAttack, startPos, endPos, true);
+                Stretch(lightningAttack, startPos, endPos, true);
                 // Sfx
                 var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
                 sfx1.Zap();  
@@ -87,7 +87,8 @@ public class ElectroShockTrident : MonoBehaviour
             
         }
     }
-    public void Strech(GameObject _sprite,Vector3 _initialPosition, Vector3 _finalPosition, bool _mirrorZ) {
+    // Causes the lightning strike to get stretched between two points
+    public void Stretch(GameObject _sprite,Vector3 _initialPosition, Vector3 _finalPosition, bool _mirrorZ) {
         float width = _sprite.GetComponent<SpriteRenderer>().bounds.size.x;
         Vector3 centerPos = (_initialPosition + _finalPosition) / 2f;
         _sprite.transform.position = centerPos;

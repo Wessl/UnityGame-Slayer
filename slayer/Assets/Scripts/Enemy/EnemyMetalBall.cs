@@ -63,7 +63,7 @@ public class EnemyMetalBall : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.transform.CompareTag("SwordAttack") || other.transform.CompareTag("LongSwordAttack"))
+        if (other.transform.CompareTag("SwordAttack") || other.transform.CompareTag("LongSwordAttack") || other.transform.CompareTag("Lightning"))
         {
             livesLeft--;
             var pos = transform.position;

@@ -54,7 +54,7 @@ public class KingSlime : MonoBehaviour
     {
         var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
         var pos = transform.position;
-        if (other.transform.CompareTag("SwordAttack") || other.transform.CompareTag("LongSwordAttack"))
+        if (other.transform.CompareTag("SwordAttack") || other.transform.CompareTag("LongSwordAttack") || other.transform.CompareTag("Lightning"))
         {
             _livesLeft -= 1;
             if (_livesLeft <= 0)    // This is the killing blow

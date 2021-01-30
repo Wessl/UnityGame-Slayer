@@ -19,6 +19,7 @@ TagManager:
   - MusicAudioSource
   - Projectile
   - MusicPlayer
+  - Lightning
   layers:
   - Default
   - TransparentFX
