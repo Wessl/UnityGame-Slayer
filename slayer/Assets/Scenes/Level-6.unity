@@ -1042,7 +1042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyToSpawn: {fileID: 5012903121134353429, guid: 7718c35a8b928cd4981853ce00955af9, type: 3}
-  spawnTimeDelay: 2
+  spawnTimeDelay: 1.5
   randomizedDelayFactor: 0.5
   spawnX: 1.6
   spawnY: 0.8

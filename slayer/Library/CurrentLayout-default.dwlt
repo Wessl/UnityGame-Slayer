@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 147
+  controlID: 152
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 76
+  controlID: 79
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 77
+  controlID: 80
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -274,8 +274,8 @@ MonoBehaviour:
     y: 0
     width: 440
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -339,7 +339,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -400,21 +400,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 58bcfdffde3efeff42a6feff66affeffaa02ffff6683ffff2887ffff44ebffff80f2ffff7af4ffff74f6ffff22f8ffffb6f9ffff34fbffff6e4f00007ef00000a8f20000
+      m_ExpandedIDs: a07dfaffdc68fbff6eb3fdff46b5fdff1eb7fdff1ab9fdffd08ffeff56fdfeff462fffff3676ffff8878ffff467affff009dffff6ca0ffffeca2ffff10a5ffff3aa6ffff58a8ffff6eaaffff56e4ffff6ceaffffc8ecffff78eeffff1ef0ffff20f2ffffecf3ffff06f6ffff46f8ffff34fbffff9e500000e050000038670000b2670000da670000446900006c690000ca750000f27500001a760000747600000aa4000034a6000014080100be2d0100ec2f0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: LevelPanel
+        m_OriginalName: LevelPanel
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 41994
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -460,9 +460,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.11921483, y: -0.01382263, z: -136.011}
+    m_Target: {x: 0.06190815, y: 0.1443805, z: -0.09772026}
     speed: 2
-    m_Value: {x: 0.11921483, y: -0.01382263, z: -136.011}
+    m_Value: {x: 0.06190815, y: 0.1443805, z: -0.09772026}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -513,9 +513,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.0728142
+    m_Target: 1.2951524
     speed: 2
-    m_Value: 1.0728142
+    m_Value: 1.2951524
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -722,9 +722,9 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: db24793ac9fdf1a49bbe6cb430bfaea9, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: c5155f4eecb748d46a97a00419f6cf87, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 4522397410280961413, guid: db24793ac9fdf1a49bbe6cb430bfaea9, type: 2}
+  - m_Target: {fileID: 4382535653425268135, guid: c5155f4eecb748d46a97a00419f6cf87, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -775,22 +775,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Weapons
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 60
   m_LastFolders:
-  - Assets/Prefabs/Weapons
+  - Assets/Scenes
   m_LastFoldersGridSize: 60
   m_LastProjectPath: C:\Users\love\Documents\GitHub\UnityGame-Slayer\slayer
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 164}
-    m_SelectedIDs: 344a0000
-    m_LastClickedID: 18996
-    m_ExpandedIDs: 00000000c4490000c6490000c8490000ca490000cc490000ce490000d0490000d2490000d4490000024a0000064a000000ca9a3b
+    scrollPos: {x: 0, y: 196}
+    m_SelectedIDs: 1c490000
+    m_LastClickedID: 18716
+    m_ExpandedIDs: 0000000096480000984800009a4800009c4800009e480000a0480000a2480000a4480000a6480000a8480000dc48000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -818,7 +818,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c4490000c6490000c8490000ca490000cc490000ce490000d0490000d2490000d4490000
+    m_ExpandedIDs: 0000000096480000984800009a4800009c4800009e480000a0480000a2480000a4480000a6480000a8480000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -926,7 +926,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 34622
+  m_LastSelectedObjectID: 30324
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -959,7 +959,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 484
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0

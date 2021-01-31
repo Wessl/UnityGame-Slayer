@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2436ff9e7498f614982a9941a7ec2f1d, type: 3}
-  m_Color: {r: 0.75, g: 0.75, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 1
   m_DrawMode: 0
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sizeMultiplier: 1
   rotationSpeed: 500
-  disappearSpeed: 0.5
+  disappearSpeed: 3
   canDeflectBullets: 0
 --- !u!114 &7732085035747960824
 MonoBehaviour:

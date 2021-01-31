@@ -7,9 +7,6 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="ArmSwinger.cs" t="Include" />
-        <e p="BoneAlisa.cs" t="Include" />
-        <e p="BoneCollider.cs" t="Include" />
-        <e p="KingSlime.cs" t="Include" />
         <e p="PlayerPrefsEditor" t="Include">
           <e p="Editor" t="Include">
             <e p="Dialogs" t="Include">
@@ -41,23 +38,26 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="ElectroShockTrident.cs" t="Include" />
           <e p="Enemy" t="Include">
+            <e p="BoneAlisa.cs" t="Include" />
+            <e p="BoneCollider.cs" t="Include" />
             <e p="EnemyMetalBall.cs" t="Include" />
             <e p="EnemyRemains.cs" t="Include" />
             <e p="EnemyShoppe.cs" t="Include" />
             <e p="EnemySlime.cs" t="Include" />
             <e p="EnemySpawner.cs" t="Include" />
             <e p="EnemyTurret.cs" t="Include" />
+            <e p="KingSlime.cs" t="Include" />
+            <e p="PaintBoss.cs" t="Include" />
             <e p="PaintEnemy.cs" t="Include" />
             <e p="SamuraiArcher.cs" t="Include" />
+            <e p="ShinNin.cs" t="Include" />
             <e p="SkellyBoye.cs" t="Include" />
             <e p="TurretBullet.cs" t="Include" />
           </e>
           <e p="GameManager.cs" t="Include" />
           <e p="LevelText.cs" t="Include" />
           <e p="LightFlickerEffect.cs" t="Include" />
-          <e p="Lightning.cs" t="Include" />
           <e p="Menu Shit" t="Include">
             <e p="LevelLister.cs" t="Include" />
             <e p="LevelPicker.cs" t="Include" />
@@ -77,13 +77,14 @@
           <e p="SoundMusicOptions.cs" t="Include" />
           <e p="Timer.cs" t="Include" />
           <e p="Weapon" t="Include">
+            <e p="ElectroShockTrident.cs" t="Include" />
             <e p="GenericAttackObject.cs" t="Include" />
+            <e p="Lightning.cs" t="Include" />
             <e p="Shovel.cs" t="Include" />
             <e p="SwingSword.cs" t="Include" />
             <e p="Sword.cs" t="Include" />
           </e>
         </e>
-        <e p="ShinNin.cs" t="Include" />
         <e p="todo.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />

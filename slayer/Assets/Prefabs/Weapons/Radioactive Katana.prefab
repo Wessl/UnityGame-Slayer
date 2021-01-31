@@ -125,7 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sizeMultiplier: 1.6
   rotationSpeed: 500
-  disappearSpeed: 0.5
+  disappearSpeed: 3.5
   canDeflectBullets: 0
 --- !u!114 &7985110536274106847
 MonoBehaviour:
