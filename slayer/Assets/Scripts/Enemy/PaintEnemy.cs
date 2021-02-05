@@ -44,15 +44,8 @@ public class PaintEnemy : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        // If the collision is from a sword, die instantly (no lives on this object as of now)
-        if (other.transform.CompareTag("SwordAttack") || other.transform.CompareTag("LongSwordAttack") || other.transform.CompareTag("Lightning"))
-        {
-            var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
-            sfx1.StoneHit();
-            Destroy(gameObject);
-        }
         // If this gameobject hits a Boundary Trigger, the direction should be reversed in order to "bounce" back
-        else if (other.transform.CompareTag("BoundTrigger"))    
+        if (other.transform.CompareTag("BoundTrigger"))    
         {
             _waiting = false;
             var d = new Vector3(bd.velocity.x, bd.velocity.y, 0);
@@ -60,6 +53,13 @@ public class PaintEnemy : MonoBehaviour
             var n = v.normalized;
             var r = d - 2 * Vector3.Dot(n, d) * n;
             bd.velocity = r;
+        }
+        // If the collision is from a sword, die instantly (no lives on this object as of now)
+        if (other.transform.CompareTag("SwordAttack") || other.transform.CompareTag("LongSwordAttack") || other.transform.CompareTag("Lightning"))
+        {
+            var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
+            sfx1.StoneHit();
+            Destroy(gameObject);
         }
     }
 

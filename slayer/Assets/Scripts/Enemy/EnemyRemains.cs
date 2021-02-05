@@ -36,7 +36,7 @@ public class EnemyRemains : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.name == "ShovelAttack(Clone)")        // Gross - use more versatile approach to detect shovel
+        if (other.name == "ShovelAttack(Clone)" || other.name == "ShovelSwing(Clone)")        // Gross - use more versatile approach to detect shovel
         {
             Destroy(gameObject);
         }
