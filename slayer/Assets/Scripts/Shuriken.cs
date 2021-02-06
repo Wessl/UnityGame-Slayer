@@ -32,7 +32,7 @@ public class Shuriken : MonoBehaviour
         if (shouldStopFlying)
         {
             bd.velocity = bd.velocity * flyDecay;
-            if (bd.velocity.magnitude <= 0.2f)
+            if (bd.velocity.magnitude <= 0.3f)
             {
                 Disappear();
             }

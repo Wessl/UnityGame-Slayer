@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3788608848252113392}
   - component: {fileID: 7376039995282411182}
   m_Layer: 12
-  m_Name: Dart
+  m_Name: DartImproved
   m_TagString: SwordAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 506665df3cde90c4caf2c36a9a56e4ae, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.54901963, b: 0.98039216, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -98,11 +98,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6263a1aa6678bdb44974cea9b5c6dbd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flySpeed: 4.5
+  flySpeed: 5.75
   spinSpeed: 0
   bd: {fileID: 3788608848252113392}
   shouldStopFlying: 1
-  flyDecay: 0.94
+  flyDecay: 0.955
 --- !u!114 &3788608848252113397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f107593dd15ce97489da13257093b3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flavorText: Time flies like an arrow, fruit flies like a banana.
+  flavorText: If you liked Dart, you're gonna love Dart 2! It's the Dartiest.
 --- !u!50 &3788608848252113392
 Rigidbody2D:
   serializedVersion: 4
