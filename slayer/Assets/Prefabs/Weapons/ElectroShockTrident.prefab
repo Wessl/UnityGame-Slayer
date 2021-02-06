@@ -157,6 +157,6 @@ MonoBehaviour:
   pullBackSpeed: -1
   changePullBackDistance: 0.3
   shouldBePulledBackFurther: 1
-  bouncesDesired: 2
+  bouncesDesired: 1
   lightning: {fileID: 6888211956022750900, guid: e0d3a656b0959124dac5114d44171c61, type: 3}
   maxLightningRange: 2

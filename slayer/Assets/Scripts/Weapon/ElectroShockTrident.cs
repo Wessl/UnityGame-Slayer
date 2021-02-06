@@ -67,23 +67,31 @@ public class ElectroShockTrident : MonoBehaviour
             }
 
             var nClosest = myTransforms.OrderBy(z => (z.position - enemyCollidedWith.position).sqrMagnitude)
-                .Take(2)   //or use .FirstOrDefault();  if you need just one
+                .Take(bouncesDesired + 1)   //or use .FirstOrDefault();  if you need just one
                 .ToArray();
             // Now we have the object closest to us in nClosest. Let's shock them. 
             var startPos = enemyCollidedWith.position;
-            // Take the one 2nd furthest away - the closest will probably be the same object!
-            var endPos = nClosest[1].position;  
-            Vector3 vectorToTarget = endPos - startPos;
-            // Limit the range - only then does the actual lightning attack occur
-            if (vectorToTarget.magnitude < maxLightningRange)
-            { 
-                Quaternion targetRotation = Quaternion.LookRotation(Vector3.forward, vectorToTarget);
-                var lightningAttack = Instantiate(lightning, startPos, targetRotation);
-                Stretch(lightningAttack, startPos, endPos, true);
-                // Sfx
-                var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
-                sfx1.Zap();  
+            var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
+            for (i = 1; i < bouncesDesired + 1; i++)
+            {
+                // Is this one actually available to shock?
+                if (i < nClosest.Length)
+                {
+                    var endPos = nClosest[i].position;  
+                    Vector3 vectorToTarget = endPos - startPos;
+                    // Limit the range - only then does the actual lightning attack occur
+                    if (vectorToTarget.magnitude < maxLightningRange)
+                    { 
+                        Quaternion targetRotation = Quaternion.LookRotation(Vector3.forward, vectorToTarget);
+                        var lightningAttack = Instantiate(lightning, startPos, targetRotation);
+                        Stretch(lightningAttack, startPos, endPos, true);
+                        // Sfx
+                        sfx1.Zap();  
+                    }
+                }
+                
             }
+            
             
         }
     }
