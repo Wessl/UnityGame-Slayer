@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e437661b-4d0c-4fa7-8ff3-5e09dc4a0bc5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.slayer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.slayer/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.slayer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.slayer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GameManager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Dart.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Dart.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SFXControllerEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SFXControllerEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/05/0562dbe43da8b745c5f11f5a43e63d95" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/ae/aef501a6be8613142896bdb5f0c24849.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/ae/aef501a6be8613142896bdb5f0c24849.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/7c/7c577a3904d9d6ada65f7548c9bd3f1e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/7c/7c577a3904d9d6ada65f7548c9bd3f1e.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,14 +41,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/todo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ArmSwinger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Explosion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.2.2/Runtime/2D/Light2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu Shit/MainMenuOptions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/d5/0317b923/Color.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/SlimeRemains.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Menu Shit/OnLoseMenuOptions.cs" />
       <option value="$PROJECT_DIR$/Assets/GenericAttackObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SwingSword.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Shovel.cs" />
@@ -75,16 +87,18 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/PaintEnemy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SamuraiArcher.cs" />
       <option value="$PROJECT_DIR$/Assets/BoneAlisa.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SFXControllerEnemy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Weapon/SwingSword.cs" />
       <option value="$PROJECT_DIR$/Assets/ShinNin.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/TurretBullet.cs" />
       <option value="$PROJECT_DIR$/Assets/PaintBoss.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/PaintBoss.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/PaintEnemy.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Shuriken.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyRemains.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Weapon/ElectroShockTrident.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Shuriken.cs" />
+      <option value="$PROJECT_DIR$/Assets/Explosion.cs" />
+      <option value="$PROJECT_DIR$/Assets/Bomb.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SFXControllerEnemy.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m13Mv1vIOAisqt7eOo1OzeWmhZ" />
@@ -167,7 +181,8 @@
       <workItem from="1612388323855" duration="596000" />
       <workItem from="1612389306695" duration="128000" />
       <workItem from="1612561721001" duration="2557000" />
-      <workItem from="1612625553057" duration="1179000" />
+      <workItem from="1612625553057" duration="1711000" />
+      <workItem from="1613058739468" duration="2573000" />
     </task>
     <servers />
   </component>

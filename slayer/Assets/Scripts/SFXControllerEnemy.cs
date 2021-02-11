@@ -15,6 +15,7 @@ public class SFXControllerEnemy : MonoBehaviour
     public AudioClip zap;
     public AudioClip zoom;
     public AudioSource audio;
+    public AudioClip boom;
    
 
     private float sfxVolume;
@@ -57,5 +58,10 @@ public class SFXControllerEnemy : MonoBehaviour
     public void Zoom()
     {
         audio.PlayOneShot(zoom, sfxVolume);
+    }
+
+    public void Boom()
+    {
+        audio.PlayOneShot(boom, sfxVolume);
     }
 }
