@@ -5,8 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.slayer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.slayer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.slayer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.slayer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GameManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SFXPlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SFXPlayer.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SFXControllerEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SFXControllerEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound/zipclick.flac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound/zipclick.flac.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/05/0562dbe43da8b745c5f11f5a43e63d95" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
@@ -97,8 +100,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Weapon/ElectroShockTrident.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Shuriken.cs" />
       <option value="$PROJECT_DIR$/Assets/Explosion.cs" />
-      <option value="$PROJECT_DIR$/Assets/Bomb.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SFXControllerEnemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Bomb.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m13Mv1vIOAisqt7eOo1OzeWmhZ" />
@@ -182,7 +185,7 @@
       <workItem from="1612389306695" duration="128000" />
       <workItem from="1612561721001" duration="2557000" />
       <workItem from="1612625553057" duration="1711000" />
-      <workItem from="1613058739468" duration="2573000" />
+      <workItem from="1613058739468" duration="3162000" />
     </task>
     <servers />
   </component>
