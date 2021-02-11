@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
     {
         _won = true;
         var currentLevel = SceneManager.GetActiveScene().buildIndex;                 // for now, level-1 is equivalent to buildindex 1
-        if (currentLevel > PlayerPrefs.GetInt("UnlockedWeapons"))
+        if (currentLevel > PlayerPrefs.GetInt("UnlockedWeapons") && currentLevel < 20)
         {
             PlayerPrefs.SetInt("UnlockedWeapons", currentLevel);                        // Unlock new weapon up to current level
             newWeaponPanel.SetActive(true);
