@@ -41,11 +41,24 @@ public class PlayerController : MonoBehaviour
         var hz = Input.GetAxisRaw("Horizontal");
         bd.velocity = new Vector2(hz * speed, vt * speed) * Time.fixedDeltaTime;
         // Rotation
-        if (bdVelocityRef != Vector2.zero) 
+        float angle = Mathf.Atan2(bdVelocityRef.y, bdVelocityRef.x) * Mathf.Rad2Deg;
+        if (_attackOptionTowardsMouse)
         {
-            float angle = Mathf.Atan2(bdVelocityRef.y, bdVelocityRef.x) * Mathf.Rad2Deg;
+            myLocation = transform.position;
+            var mousePosition = Input.mousePosition;
+            Vector3 targetLocation = Camera.main.ScreenToWorldPoint(mousePosition);
+            targetLocation.z = myLocation.z; // ensure there is no 3D rotation by aligning Z position
+            // vector from this object towards the target location
+            Vector3 vectorToTarget = targetLocation - myLocation;
+            // get the rotation that points the Z axis forward, and the Y axis 90 degrees away from the target
+            Quaternion targetRotation = Quaternion.LookRotation(forward: Vector3.forward, upwards: vectorToTarget);
+            transform.rotation = targetRotation;
+        }
+        else if (!_attackOptionTowardsMouse && bdVelocityRef != Vector2.zero)
+        {
             transform.rotation = Quaternion.AngleAxis(angle - 90, Vector3.forward);
         }
+        
     }
 
     void Attack()
