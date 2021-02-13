@@ -9,6 +9,7 @@
         <e p="ArmSwinger.cs" t="Include" />
         <e p="Bomb.cs" t="Include" />
         <e p="Explosion.cs" t="Include" />
+        <e p="FirstTimePlayerHandlePlayerPrefs.cs" t="Include" />
         <e p="PlayerPrefsEditor" t="Include">
           <e p="Editor" t="Include">
             <e p="Dialogs" t="Include">

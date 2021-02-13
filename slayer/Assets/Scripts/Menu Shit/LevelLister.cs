@@ -12,7 +12,7 @@ public class LevelLister : MonoBehaviour
     {
         var amountOfUnlockedLevels = PlayerPrefs.GetInt("UnlockedLevels");
         Image[] allChildren = levelPanel.GetComponentsInChildren<Image>();
-        Debug.Log("Unlocked levels: " + PlayerPrefs.GetInt("UnlockedLevels"));
+        //Debug.Log("Unlocked levels: " + PlayerPrefs.GetInt("UnlockedLevels"));
         for (int i = allChildren.Length-1; i > amountOfUnlockedLevels+1; i--)         
         {
             allChildren[i].gameObject.SetActive(false);

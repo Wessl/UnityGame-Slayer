@@ -9,6 +9,7 @@ public class MainMenuButtons : MonoBehaviour
     public GameObject weaponpanel;
     public GameObject optionsPanel;
     public GameObject levelPanel;
+    public GameObject how2PlayPanel;
 
     public void OnClickPlay()
     {
@@ -42,6 +43,18 @@ public class MainMenuButtons : MonoBehaviour
             weaponpanel.SetActive(true);
         }
        
+    }
+
+    public void OnClickHowToPlay()
+    {
+        if (how2PlayPanel.activeSelf)
+        {
+            how2PlayPanel.SetActive(false);
+        }
+        else
+        {
+            how2PlayPanel.SetActive(true);
+        }
     }
 
     // Sound options is handled in a separate script: may be a bad idea?

@@ -1660,5 +1660,5 @@ MonoBehaviour:
   _collider: {fileID: 6346790694710766462}
   arrowPrefab: {fileID: 2648663165994583814, guid: 450047a9177127d4f8bd7d97c0bef924, type: 3}
   deathParticleSystem: {fileID: 6082718438231548772, guid: 0c7dc9863695b0947acaf616c19f43f2, type: 3}
-  livesLeft: 20
+  livesLeft: 25
   animController: {fileID: 3158008246377010738}
