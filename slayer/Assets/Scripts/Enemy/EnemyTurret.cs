@@ -20,6 +20,7 @@ public class EnemyTurret : MonoBehaviour
     public GameObject turretDeathParticleSys;
 
     [SerializeField] private float fireSpeed = 1f;
+    public GameObject spawnCompletionPS;
 
     private void Awake()
     {
@@ -32,7 +33,7 @@ public class EnemyTurret : MonoBehaviour
     {
         waiting = true;     // set to waiting while setting things up
         sfx = GameObject.FindWithTag("SFXPlayer");
-        Move();
+        
     }
 
     // Update is called once per frame
@@ -94,6 +95,9 @@ public class EnemyTurret : MonoBehaviour
             collider.enabled = true;
             waiting = false;    // waiting is to just turn on the behaviour that handles movement
             gameObject.tag = "Enemy";
+            var spawnPS = Instantiate(spawnCompletionPS, transform.position, Quaternion.identity);
+            spawnPS.transform.localScale *= 2;
+            Move();
         }
     }
 

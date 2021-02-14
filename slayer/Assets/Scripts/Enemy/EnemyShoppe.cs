@@ -16,6 +16,7 @@ public class EnemyShoppe : MonoBehaviour
     private GameObject sfx;        // reference to the prefab we will get audio info from
     public GameObject shoppeDeathSystem;
     public GameObject shoppeBoneDeathSystem;
+    public GameObject spawnCompletionPS;
 
 
 
@@ -83,6 +84,7 @@ public class EnemyShoppe : MonoBehaviour
             collider.enabled = true;
             waiting = false;    // waiting is to just turn on the behaviour that handles movement
             gameObject.tag = "Enemy";
+            Instantiate(spawnCompletionPS, transform.position, Quaternion.identity);
         }
     }
 }

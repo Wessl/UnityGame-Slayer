@@ -17,6 +17,8 @@ public class PaintEnemy : MonoBehaviour
     private bool _beginning = true;
     private GameObject sfx;
     private Animator anim;
+    
+    public GameObject spawnCompletionPS;
 
     private void Awake()
     {
@@ -90,6 +92,7 @@ public class PaintEnemy : MonoBehaviour
             _waiting = false;    // waiting is to just turn on the behaviour that handles movement
             gameObject.tag = "Enemy";
             anim.SetTrigger("BeginAnimating");
+            Instantiate(spawnCompletionPS, transform.position, Quaternion.identity);
             Move();
         }
     }

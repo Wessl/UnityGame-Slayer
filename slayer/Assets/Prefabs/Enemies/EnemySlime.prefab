@@ -174,11 +174,14 @@ MonoBehaviour:
   collider: {fileID: 2503945122797823402}
   slimeRemains: {fileID: 0}
   slimeBallParticleSystem: {fileID: 6082718438231548772, guid: 6c88dcdd486e88c42b429719a92cbe39, type: 3}
+  _livesLeft: 1
   _spawnsRemainsUponDeath: 0
   spd: 1
   useLight: 0
   maxLightIntensity: 0.4
+  punchStrength: 200
   waitTime: 0.1
+  spawnCompletionPS: {fileID: 6082718438231548772, guid: 04d74091065f1c74f8ab523f3e1d5ae1, type: 3}
 --- !u!61 &2503945122797823402
 BoxCollider2D:
   m_ObjectHideFlags: 0

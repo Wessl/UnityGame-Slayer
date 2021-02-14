@@ -18,6 +18,7 @@ public class PaintBoss : MonoBehaviour
     private bool _beginning = true;
     private GameObject sfx;
     private Animator anim;
+    
 
     // Start is called before the first frame update
     void Start()

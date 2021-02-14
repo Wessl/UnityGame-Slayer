@@ -25,6 +25,7 @@ public class EnemySlime : MonoBehaviour
     [SerializeField] private float punchStrength = 200f;
     private GameObject sfx;        // reference to the prefab we will get audio info from
     [SerializeField] private float waitTime = 0.1f;
+    public GameObject spawnCompletionPS;
 
     void Awake()
     {
@@ -118,6 +119,7 @@ public class EnemySlime : MonoBehaviour
             collider.enabled = true;
             _waiting = false;    // waiting is to just turn on the behaviour that handles movement
             gameObject.tag = "Enemy";
+            Instantiate(spawnCompletionPS, transform.position, Quaternion.identity);
         }
     }
 }

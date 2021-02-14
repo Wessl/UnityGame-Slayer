@@ -29,6 +29,7 @@ public class EnemyMetalBall : MonoBehaviour
     [SerializeField] private float punchStrength = 200f;
     [SerializeField] private float waitTime = 0.1f;
     [SerializeField] private float spinSpeed = 1000f;
+    public GameObject spawnCompletionPS;
 
     
 
@@ -113,6 +114,8 @@ public class EnemyMetalBall : MonoBehaviour
             collider.enabled = true;
             _waiting = false;    // waiting is to just turn on the behaviour that handles movement
             gameObject.tag = "Enemy";
+            var spawnPS = Instantiate(spawnCompletionPS, transform.position, Quaternion.identity);
+            spawnPS.transform.localScale *= 1.6f;
         }
     }
 }

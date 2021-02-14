@@ -124,6 +124,7 @@ MonoBehaviour:
   turretBullet: {fileID: 2648663165994583814, guid: 256302f1ef1666d45a02d1a496cfb75d, type: 3}
   turretDeathParticleSys: {fileID: 6082718438231548772, guid: a2c95b089afb18f4983dc80ef24e5448, type: 3}
   fireSpeed: 3
+  spawnCompletionPS: {fileID: 6082718438231548772, guid: 04d74091065f1c74f8ab523f3e1d5ae1, type: 3}
 --- !u!58 &7551779471123023916
 CircleCollider2D:
   m_ObjectHideFlags: 0

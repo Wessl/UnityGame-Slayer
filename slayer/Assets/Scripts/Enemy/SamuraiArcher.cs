@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class SamuraiArcher : MonoBehaviour
@@ -17,6 +18,7 @@ public class SamuraiArcher : MonoBehaviour
     
     public Animator animController;
     private bool _beginning = true;
+    public GameObject spawnCompletionPS;
 
     void Awake()
     {
@@ -102,6 +104,7 @@ public class SamuraiArcher : MonoBehaviour
             _collider.enabled = true;
             animController.SetBool("Fire", true);   // Start animating
             gameObject.tag = "Enemy";
+            Instantiate(spawnCompletionPS, transform.position, Quaternion.identity);
         }
     }
 }

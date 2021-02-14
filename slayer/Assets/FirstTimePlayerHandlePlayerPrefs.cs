@@ -12,6 +12,7 @@ public class FirstTimePlayerHandlePlayerPrefs : MonoBehaviour
         {
             PlayerPrefs.SetFloat("musicSliderValue", 0.25f);
             PlayerPrefs.SetFloat("sfxSliderValue", 0.25f);
+            GameObject.FindWithTag("MusicAudioSource").GetComponent<MusicHandler>().OnChangeVolume();
             PlayerPrefs.SetInt("SwingType", 1);
             PlayerPrefs.SetInt("FirstTime", 1);
         }

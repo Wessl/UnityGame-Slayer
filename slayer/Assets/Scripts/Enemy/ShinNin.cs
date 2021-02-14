@@ -19,6 +19,7 @@ public class ShinNin : MonoBehaviour
 
     public Animator animController;
     private bool _beginning = true;
+    public GameObject spawnCompletionPS;
 
     void Start()
     {
@@ -113,6 +114,7 @@ public class ShinNin : MonoBehaviour
             animController.SetBool("Fire", true);   // Start animating
             animController.speed = 1.6f;
             gameObject.tag = "Enemy";
+            Instantiate(spawnCompletionPS, transform.position, Quaternion.identity);
         }
     }
 }
