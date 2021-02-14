@@ -46,7 +46,7 @@ public class EnemyMetalBall : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (_beginning)
         {

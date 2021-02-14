@@ -36,9 +36,8 @@ public class ShinNin : MonoBehaviour
         
         sfx = GameObject.FindWithTag("SFXPlayer");
     }
-    
-    // Eggspensive
-    void Update()
+
+    private void FixedUpdate()
     {
         if (_beginning)
         {

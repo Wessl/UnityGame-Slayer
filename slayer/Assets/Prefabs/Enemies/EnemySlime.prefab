@@ -176,7 +176,7 @@ MonoBehaviour:
   slimeBallParticleSystem: {fileID: 6082718438231548772, guid: 6c88dcdd486e88c42b429719a92cbe39, type: 3}
   _livesLeft: 1
   _spawnsRemainsUponDeath: 0
-  spd: 1
+  spd: 0.3
   useLight: 0
   maxLightIntensity: 0.4
   punchStrength: 200

@@ -37,7 +37,7 @@ public class EnemyTurret : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (beginning)
         {
@@ -86,7 +86,7 @@ public class EnemyTurret : MonoBehaviour
     void CreateEnemy()
     {
         Color c = gameObject.GetComponent<SpriteRenderer>().color;
-        c.a = c.a + Time.deltaTime * 0.5f;
+        c.a = c.a + Time.deltaTime * 1f;
         gameObject.GetComponent<SpriteRenderer>().color = c;
         if (c.a > 0.98f)
         {

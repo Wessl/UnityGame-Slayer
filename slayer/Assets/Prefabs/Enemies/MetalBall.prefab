@@ -179,7 +179,7 @@ MonoBehaviour:
   collider: {fileID: 2503945122797823402}
   spriteToSwapToWhenHit: {fileID: 21300000, guid: f071b4bade1441540a6d8c8e86405625, type: 3}
   deathParticleSystem: {fileID: 6082718438231548772, guid: 986735d0d539fa74ebe7607ed09699b0, type: 3}
-  spd: 50
+  spd: 20
   livesLeft: 2
   punchStrength: 150
   waitTime: 0.05

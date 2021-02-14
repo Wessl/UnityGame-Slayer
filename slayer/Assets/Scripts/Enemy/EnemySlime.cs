@@ -43,17 +43,15 @@ public class EnemySlime : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
-        if (_beginning)
-        {
-            CreateEnemy();
-        }
-
         if (!_waiting)
         {
             StartCoroutine(MoveRandom());
+        }
+        if (_beginning)
+        {
+            CreateEnemy();
         }
     }
 
@@ -106,7 +104,7 @@ public class EnemySlime : MonoBehaviour
     void CreateEnemy()
     {
         Color c = gameObject.GetComponentInChildren<SpriteRenderer>().color;
-        c.a = c.a * 1.01f;
+        c.a += 1f * Time.deltaTime;
         gameObject.GetComponentInChildren<SpriteRenderer>().color = c;
         if (useLight && _myLight.intensity < maxLightIntensity)
         {

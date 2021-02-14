@@ -1129,7 +1129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 1221802307}
   bd: {fileID: 722383921}
-  spd: 5
+  spd: 0.4
   waitTime: 0.1
   livesLeft: 750
   maxVelocity: 0.1

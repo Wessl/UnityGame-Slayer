@@ -36,7 +36,7 @@ public class EnemyShoppe : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (beginning)
         {
@@ -64,8 +64,8 @@ public class EnemyShoppe : MonoBehaviour
     private IEnumerator MoveRandom()
     {
         waiting = true;
-        var xdir = Random.Range(-0.003f * spd, 0.003f * spd);
-        var ydir = Random.Range(-0.003f * spd, 0.003f * spd);
+        var xdir = Random.Range(-0.001f * spd, 0.001f * spd);
+        var ydir = Random.Range(-0.001f * spd, 0.001f * spd);
         Vector2 v = new Vector2(xdir, ydir);
         bd.AddForce(v * Time.deltaTime, ForceMode2D.Impulse);
         yield return new WaitForSeconds(waitTime);
@@ -75,7 +75,7 @@ public class EnemyShoppe : MonoBehaviour
     void CreateEnemy()
     {
         Color c = gameObject.GetComponent<SpriteRenderer>().color;
-        c.a = c.a * 1.01f;
+        c.a += 1f * Time.deltaTime;
         gameObject.GetComponent<SpriteRenderer>().color = c;
         if (c.a > 0.9f)
         {

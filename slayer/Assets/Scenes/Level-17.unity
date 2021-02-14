@@ -1340,7 +1340,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 305465023
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 568ddc288dd54654785ec2baa4ff4fe8, type: 3}
   m_Color: {r: 0, g: 0, b: 1, a: 1}
@@ -1472,7 +1472,7 @@ MonoBehaviour:
   collider: {fileID: 7637961002181795984}
   slimeBallParticleSystem: {fileID: 6082718438231548772, guid: 8c96a5b0fafff254182994e94b0a6754, type: 3}
   _livesLeft: 60
-  spd: 10
+  spd: 3.2
   punchStrength: 40
   playerTransform: {fileID: 1499559561}
   waitTime: 0.05

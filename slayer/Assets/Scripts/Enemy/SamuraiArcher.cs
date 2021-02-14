@@ -40,9 +40,8 @@ public class SamuraiArcher : MonoBehaviour
         
         sfx = GameObject.FindWithTag("SFXPlayer");
     }
-    
-    // Eggspensive
-    void Update()
+
+    private void FixedUpdate()
     {
         if (_beginning)
         {
@@ -95,7 +94,7 @@ public class SamuraiArcher : MonoBehaviour
     void CreateEnemy()
     {
         Color c = gameObject.GetComponentInChildren<SpriteRenderer>().color;
-        c.a += + 0.5f * Time.deltaTime;
+        c.a += 1f * Time.deltaTime;
         gameObject.GetComponentInChildren<SpriteRenderer>().color = c;
         if (c.a > 0.98f)
         {

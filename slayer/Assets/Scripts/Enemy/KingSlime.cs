@@ -37,7 +37,7 @@ public class KingSlime : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (_beginning)
         {
@@ -99,7 +99,7 @@ public class KingSlime : MonoBehaviour
     void CreateEnemy()
     {
         Color c = gameObject.GetComponentInChildren<SpriteRenderer>().color;
-        c.a += + 0.2f * Time.deltaTime;
+        c.a += + 0.5f * Time.deltaTime;
         gameObject.GetComponentInChildren<SpriteRenderer>().color = c;
         if (c.a > 0.97f)
         {
