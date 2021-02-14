@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEditor.UIElements;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -13,6 +14,8 @@ public class EnemyShoppe : MonoBehaviour
     private bool beginning = true;
     [SerializeField] private float spd = 1f;
     private GameObject sfx;        // reference to the prefab we will get audio info from
+    public GameObject shoppeDeathSystem;
+    public GameObject shoppeBoneDeathSystem;
 
 
 
@@ -51,6 +54,8 @@ public class EnemyShoppe : MonoBehaviour
         {
             var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
             sfx1.WoodHit();
+            Instantiate(shoppeBoneDeathSystem, transform.position, Quaternion.identity);
+            Instantiate(shoppeDeathSystem, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

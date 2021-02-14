@@ -100,6 +100,8 @@ MonoBehaviour:
   bd: {fileID: 5012903121134353428}
   collider: {fileID: 5012903121134353435}
   spd: 0.5
+  shoppeDeathSystem: {fileID: 6082718438231548772, guid: 0506868c33e30a348a1525db53726da1, type: 3}
+  shoppeBoneDeathSystem: {fileID: 6082718438231548772, guid: 0c7dc9863695b0947acaf616c19f43f2, type: 3}
   waitTime: 0.2
 --- !u!61 &5012903121134353435
 BoxCollider2D:

@@ -17,6 +17,7 @@ public class EnemyTurret : MonoBehaviour
     private bool beginning = true;
     private bool waitingFire = false;
     private GameObject sfx;        // reference to the prefab we will get audio info from
+    public GameObject turretDeathParticleSys;
 
     [SerializeField] private float fireSpeed = 1f;
 
@@ -55,6 +56,7 @@ public class EnemyTurret : MonoBehaviour
         {
             var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
             sfx1.StoneHit();
+            Instantiate(turretDeathParticleSys, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
         // If this gameobject hits a Boundary Trigger, the direction should be reversed in order to "bounce" back
