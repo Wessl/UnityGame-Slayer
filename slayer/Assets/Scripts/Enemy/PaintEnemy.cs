@@ -11,6 +11,7 @@ public class PaintEnemy : MonoBehaviour
     public float moveSpeed = 0.6f;
     public Sprite[] splashImages;
     public GameObject paintSplashHolderObject;
+    public GameObject woodSplinterPS;
     // Some IEnumerator bools to halt certain actions
     private bool _waiting = false;
     private bool _beginning = true;
@@ -58,6 +59,7 @@ public class PaintEnemy : MonoBehaviour
         {
             var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
             sfx1.StoneHit();
+            Instantiate(woodSplinterPS, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

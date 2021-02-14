@@ -673,3 +673,444 @@ System memory in use after: 187.1 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3125.
 Total: 3.213100 ms (FindLiveObjects: 0.390800 ms CreateObjectMapping: 0.246800 ms MarkObjects: 2.554800 ms  DeleteObjects: 0.018700 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 97.641363 seconds.
+  path: Assets/Scenes/Level-3.unity
+  artifactKey: Guid(8769378a397059e4fa2776b66ccf163d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level-3.unity using Guid(8769378a397059e4fa2776b66ccf163d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ccdb372f6843a58002e8b39983044e') in 0.027265 seconds
+  Import took 0.032782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.612756 seconds.
+  path: Assets/Scenes/Level-16.unity
+  artifactKey: Guid(577b2873f929d654f857154c7d2c3a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level-16.unity using Guid(577b2873f929d654f857154c7d2c3a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1421c44610d9fed810700c30c0343f15') in 0.012483 seconds
+  Import took 0.017927 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002516 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.206 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.9 MB.
+System memory in use after: 187.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3127.
+Total: 3.870500 ms (FindLiveObjects: 0.478300 ms CreateObjectMapping: 0.403000 ms MarkObjects: 2.965600 ms  DeleteObjects: 0.021500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.061694 seconds.
+  path: Assets/Scenes/woodSplinter.png
+  artifactKey: Guid(01c6ab386d7c0f347a08a3fdbbab7c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/woodSplinter.png using Guid(01c6ab386d7c0f347a08a3fdbbab7c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b526b53afc41bbfea922ebe55f25462') in 0.062531 seconds
+  Import took 0.068826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.745349 seconds.
+  path: Assets/woodSplinter.png
+  artifactKey: Guid(e0bc175fd7a051e4995b7b5429562f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/woodSplinter.png using Guid(e0bc175fd7a051e4995b7b5429562f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fd45d255648db0784b23739858a76a') in 0.024811 seconds
+  Import took 0.030700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.182353 seconds.
+  path: Assets/woodSplinter.png
+  artifactKey: Guid(e0bc175fd7a051e4995b7b5429562f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/woodSplinter.png using Guid(e0bc175fd7a051e4995b7b5429562f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a031ba1c82b1566d74445c3cf87458bc') in 0.038020 seconds
+  Import took 0.044796 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002028 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.075 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.9 MB.
+System memory in use after: 187.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3130.
+Total: 4.606500 ms (FindLiveObjects: 0.411000 ms CreateObjectMapping: 0.266100 ms MarkObjects: 3.896800 ms  DeleteObjects: 0.030100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.728833 seconds.
+  path: Assets/Prefabs/Enemies/PaintEnemy.prefab
+  artifactKey: Guid(660e807566f67ed4f8444757a88329fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/PaintEnemy.prefab using Guid(660e807566f67ed4f8444757a88329fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0eddac772b98b76ceb811ef80315c5a') in 0.549809 seconds
+  Import took 0.558624 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001606 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.230 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.0 MB.
+System memory in use after: 187.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3168.
+Total: 3.255200 ms (FindLiveObjects: 0.378500 ms CreateObjectMapping: 0.233600 ms MarkObjects: 2.614500 ms  DeleteObjects: 0.027000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.644814 seconds.
+  path: Assets/Scripts/Enemy/PaintBoss.cs
+  artifactKey: Guid(d2c8696424216a74bbba13fddd00f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/PaintBoss.cs using Guid(d2c8696424216a74bbba13fddd00f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887cb8a3549fe763deb8802350847071') in 0.046163 seconds
+  Import took 0.051758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.719707 seconds.
+  path: Assets/Scripts/Enemy/PaintBoss.cs
+  artifactKey: Guid(d2c8696424216a74bbba13fddd00f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/PaintBoss.cs using Guid(d2c8696424216a74bbba13fddd00f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000519 seconds
+  ERROR: Build asset version error: assets/scripts/enemy/paintboss.cs in SourceAssetDB has modification time of '2021-02-14T10:23:19.2492152Z' while content on disk has modification time of '2021-02-14T10:23:20.0835349Z'
+  Import took 0.005650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.144590 seconds.
+  path: Assets/Scripts/Enemy/PaintBoss.cs
+  artifactKey: Guid(d2c8696424216a74bbba13fddd00f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/PaintBoss.cs using Guid(d2c8696424216a74bbba13fddd00f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000781 seconds
+  ERROR: Build asset version error: assets/scripts/enemy/paintboss.cs in SourceAssetDB has modification time of '2021-02-14T10:23:19.2492152Z' while content on disk has modification time of '2021-02-14T10:23:20.0835349Z'
+  Import took 0.018968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.185495 seconds.
+  path: Assets/Scripts/Enemy/PaintBoss.cs
+  artifactKey: Guid(d2c8696424216a74bbba13fddd00f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/PaintBoss.cs using Guid(d2c8696424216a74bbba13fddd00f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.030999 seconds
+  ERROR: Build asset version error: assets/scripts/enemy/paintboss.cs in SourceAssetDB has modification time of '2021-02-14T10:23:19.2492152Z' while content on disk has modification time of '2021-02-14T10:23:20.0835349Z'
+  Import took 0.038085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091517 seconds.
+  path: Assets/Scripts/Enemy/PaintBoss.cs
+  artifactKey: Guid(d2c8696424216a74bbba13fddd00f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/PaintBoss.cs using Guid(d2c8696424216a74bbba13fddd00f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000443 seconds
+  ERROR: Build asset version error: assets/scripts/enemy/paintboss.cs in SourceAssetDB has modification time of '2021-02-14T10:23:19.2492152Z' while content on disk has modification time of '2021-02-14T10:23:20.0835349Z'
+  Import took 0.045037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115444 seconds.
+  path: Assets/Scripts/Enemy/PaintBoss.cs
+  artifactKey: Guid(d2c8696424216a74bbba13fddd00f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/PaintBoss.cs using Guid(d2c8696424216a74bbba13fddd00f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000402 seconds
+  ERROR: Build asset version error: assets/scripts/enemy/paintboss.cs in SourceAssetDB has modification time of '2021-02-14T10:23:19.2492152Z' while content on disk has modification time of '2021-02-14T10:23:20.0835349Z'
+  Import took 0.021815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071974 seconds.
+  path: Assets/Scripts/Enemy/PaintBoss.cs
+  artifactKey: Guid(d2c8696424216a74bbba13fddd00f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/PaintBoss.cs using Guid(d2c8696424216a74bbba13fddd00f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001398 seconds
+  ERROR: Build asset version error: assets/scripts/enemy/paintboss.cs in SourceAssetDB has modification time of '2021-02-14T10:23:19.2492152Z' while content on disk has modification time of '2021-02-14T10:23:20.0835349Z'
+  Import took 0.007012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.130236 seconds.
+  path: Assets/Scripts/Enemy/PaintBoss.cs
+  artifactKey: Guid(d2c8696424216a74bbba13fddd00f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/PaintBoss.cs using Guid(d2c8696424216a74bbba13fddd00f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000431 seconds
+  ERROR: Build asset version error: assets/scripts/enemy/paintboss.cs in SourceAssetDB has modification time of '2021-02-14T10:23:19.2492152Z' while content on disk has modification time of '2021-02-14T10:23:20.0835349Z'
+  Import took 0.011357 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003300 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.366 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.1 MB.
+System memory in use after: 187.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3170.
+Total: 4.307600 ms (FindLiveObjects: 0.408600 ms CreateObjectMapping: 0.935100 ms MarkObjects: 2.938600 ms  DeleteObjects: 0.023000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001794 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.213 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.1 MB.
+System memory in use after: 187.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3172.
+Total: 3.446100 ms (FindLiveObjects: 0.411700 ms CreateObjectMapping: 0.337400 ms MarkObjects: 2.660500 ms  DeleteObjects: 0.034800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.675220 seconds.
+  path: Assets/Scripts/Enemy/PaintBoss.cs
+  artifactKey: Guid(d2c8696424216a74bbba13fddd00f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/PaintBoss.cs using Guid(d2c8696424216a74bbba13fddd00f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2929a543d8ad6da4c9bd680fa9b1ae') in 0.008013 seconds
+  Import took 0.013420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.568291 seconds.
+  path: Assets/Prefabs/Particle Systems/MeatChunkPS 1.prefab
+  artifactKey: Guid(2caeef5c136b9594bae25518b2d7ddf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Particle Systems/MeatChunkPS 1.prefab using Guid(2caeef5c136b9594bae25518b2d7ddf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002aa85ebf24886f7f6b680522bfabd1') in 0.042650 seconds
+  Import took 0.050155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.360549 seconds.
+  path: Assets/Prefabs/Particle Systems/woodSplinterPS.prefab
+  artifactKey: Guid(2caeef5c136b9594bae25518b2d7ddf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Particle Systems/woodSplinterPS.prefab using Guid(2caeef5c136b9594bae25518b2d7ddf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe28ba476e9773d91cb0a6c6fe55f0a5') in 0.017246 seconds
+  Import took 0.023847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.926774 seconds.
+  path: Assets/Materials/WoodSplinterMat.mat
+  artifactKey: Guid(e08dff043b86189449cace474647fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WoodSplinterMat.mat using Guid(e08dff043b86189449cace474647fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913bcc2add136450586819db8e9dc8e8') in 0.230410 seconds
+  Import took 0.236567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008204 seconds.
+  path: Assets/Materials/WoodSplinterMat.mat
+  artifactKey: Guid(e08dff043b86189449cace474647fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WoodSplinterMat.mat using Guid(e08dff043b86189449cace474647fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913bcc2add136450586819db8e9dc8e8') in 0.024502 seconds
+  Import took 0.029606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.488734 seconds.
+  path: Assets/Prefabs/Particle Systems/woodSplinterPS.prefab
+  artifactKey: Guid(2caeef5c136b9594bae25518b2d7ddf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Particle Systems/woodSplinterPS.prefab using Guid(2caeef5c136b9594bae25518b2d7ddf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f70f04f82933ca3dc4b81f506cacc3') in 0.014171 seconds
+  Import took 0.020371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.984465 seconds.
+  path: Assets/Prefabs/Enemies/PaintEnemy.prefab
+  artifactKey: Guid(660e807566f67ed4f8444757a88329fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/PaintEnemy.prefab using Guid(660e807566f67ed4f8444757a88329fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cb803597719a3a9268194f86dd9482') in 0.035428 seconds
+  Import took 0.041242 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001640 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.817 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.2 MB.
+System memory in use after: 187.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3210.
+Total: 3.395900 ms (FindLiveObjects: 0.420500 ms CreateObjectMapping: 0.417500 ms MarkObjects: 2.535400 ms  DeleteObjects: 0.020200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001545 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.243 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.2 MB.
+System memory in use after: 187.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3212.
+Total: 3.532400 ms (FindLiveObjects: 0.719400 ms CreateObjectMapping: 0.265700 ms MarkObjects: 2.523700 ms  DeleteObjects: 0.021700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001666 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.187 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.1 MB.
+System memory in use after: 187.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3214.
+Total: 3.767300 ms (FindLiveObjects: 0.397300 ms CreateObjectMapping: 0.272600 ms MarkObjects: 3.068000 ms  DeleteObjects: 0.027800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001785 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.261 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.2 MB.
+System memory in use after: 187.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3216.
+Total: 3.548900 ms (FindLiveObjects: 0.456500 ms CreateObjectMapping: 0.273500 ms MarkObjects: 2.789300 ms  DeleteObjects: 0.028400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.588668 seconds.
+  path: Assets/Prefabs/Particle Systems/woodSplinterPS.prefab
+  artifactKey: Guid(2caeef5c136b9594bae25518b2d7ddf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Particle Systems/woodSplinterPS.prefab using Guid(2caeef5c136b9594bae25518b2d7ddf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074c54a66e6bd41f4a2fa3453366e64a') in 0.039123 seconds
+  Import took 0.044282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.642405 seconds.
+  path: Assets/Prefabs/Particle Systems/woodSplinterPS.prefab
+  artifactKey: Guid(2caeef5c136b9594bae25518b2d7ddf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Particle Systems/woodSplinterPS.prefab using Guid(2caeef5c136b9594bae25518b2d7ddf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074c54a66e6bd41f4a2fa3453366e64a') in 0.011772 seconds
+  Import took 0.016947 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001703 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.175 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.2 MB.
+System memory in use after: 187.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3218.
+Total: 3.204400 ms (FindLiveObjects: 0.371300 ms CreateObjectMapping: 0.220800 ms MarkObjects: 2.573900 ms  DeleteObjects: 0.037000 ms)
+

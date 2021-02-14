@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e437661b-4d0c-4fa7-8ff3-5e09dc4a0bc5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.slayer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.slayer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/EnemyDirectionalTurret.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/EnemyDirectionalTurret.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/EnemyShoppe.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/EnemyShoppe.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyShoppe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyShoppe.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyTurret.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyTurret.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4d/4d5c736a940aa7e65f666c1e62669a65" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7c/7cbef3f55152af60302c1a0efbf92d9f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8f/8f4862be3ca4e5dd566d32ce745a40f0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/97/97bcb3f973fcdc5064f8f9901d84c1be" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/bd/bd3112e86b26160f6ddcb9b0887b29c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/PaintEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/PaintEnemy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/ae/aef501a6be8613142896bdb5f0c24849.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/ae/aef501a6be8613142896bdb5f0c24849.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,13 +81,13 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/PaintBoss.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/PaintEnemy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Weapon/Lightning.cs" />
       <option value="$PROJECT_DIR$/Assets/FirstTimePlayerHandlePlayerPrefs.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Menu Shit/MainMenuButtons.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Menu Shit/LevelLister.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyTurret.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyShoppe.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/PaintEnemy.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m13Mv1vIOAisqt7eOo1OzeWmhZ" />
@@ -187,7 +176,7 @@
       <workItem from="1613125526230" duration="902000" />
       <workItem from="1613160648933" duration="616000" />
       <workItem from="1613244878725" duration="1160000" />
-      <workItem from="1613296724137" duration="1023000" />
+      <workItem from="1613296724137" duration="1442000" />
     </task>
     <servers />
   </component>

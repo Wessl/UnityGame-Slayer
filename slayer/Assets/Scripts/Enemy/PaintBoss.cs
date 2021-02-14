@@ -12,6 +12,7 @@ public class PaintBoss : MonoBehaviour
     public int livesLeft;
     public Sprite[] splashImages;
     public GameObject paintSplashHolderObject;
+    public GameObject woodSplinterPS;
     // Some IEnumerator bools to halt certain actions
     private bool _waiting = false;
     private bool _beginning = true;
@@ -55,6 +56,7 @@ public class PaintBoss : MonoBehaviour
             livesLeft--;
             var sfx1 = sfx.GetComponent<SFXControllerEnemy>();
             sfx1.StoneHit();
+            Instantiate(woodSplinterPS, transform.position, Quaternion.identity);
             if (livesLeft <= 0)
             {
                 sfx1.StoneHit();
