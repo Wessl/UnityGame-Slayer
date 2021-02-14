@@ -1662,3 +1662,4 @@ MonoBehaviour:
   deathParticleSystem: {fileID: 6082718438231548772, guid: 0c7dc9863695b0947acaf616c19f43f2, type: 3}
   livesLeft: 25
   animController: {fileID: 3158008246377010738}
+  spawnCompletionPS: {fileID: 6082718438231548772, guid: 04d74091065f1c74f8ab523f3e1d5ae1, type: 3}

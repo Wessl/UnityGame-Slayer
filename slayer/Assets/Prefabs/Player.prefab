@@ -103,6 +103,7 @@ MonoBehaviour:
   bd: {fileID: 8914411577984791402}
   deathPanel: {fileID: 0}
   attackSpawnDistance: 0.24
+  internalAttackDelay: 0.1
 --- !u!50 &8914411577984791402
 Rigidbody2D:
   serializedVersion: 4

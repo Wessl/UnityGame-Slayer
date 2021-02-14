@@ -47,9 +47,7 @@ public class PaintBoss : MonoBehaviour
             var v = other.transform.position;
             var n = v.normalized;
             var r = d - 2 * Vector3.Dot(n, d) * n;
-            Debug.Log("old velocity: " + bd.velocity);
             bd.velocity = r;
-            Debug.Log("new velocity: " + bd.velocity);
         }
         // If the collision is from a sword, die instantly (no lives on this object as of now)
         if (other.transform.CompareTag("SwordAttack") || other.transform.CompareTag("LongSwordAttack") || other.transform.CompareTag("Lightning"))
@@ -79,7 +77,6 @@ public class PaintBoss : MonoBehaviour
         var ydir = Random.Range(-moveSpeed, moveSpeed);
         Vector2 v = new Vector2(xdir, ydir);
         bd.AddForce(v, ForceMode2D.Impulse);
-        Debug.Log(bd.velocity);
     }
 
     // Spawn this enemy by slowly increasing color alpha, enabling collision once a threshold is reached

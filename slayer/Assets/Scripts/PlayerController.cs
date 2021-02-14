@@ -18,8 +18,12 @@ public class PlayerController : MonoBehaviour
     [Tooltip("0.24 is pretty good for a default value for swords")]
     [SerializeField] private float attackSpawnDistance = 0.24f;
 
+    [SerializeField] private float internalAttackDelay = 0.25f;
+    private bool _waiting;
+
     void Start()
     {
+        _waiting = false;
         _gm = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
         _attackObject = _gm.GetAllWeapons()[PlayerPrefs.GetInt("ChosenWeapon")];
         if (PlayerPrefs.GetInt("SwingType") == 1)
@@ -30,7 +34,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Move();
-        Attack();
+        AttackDetector();
     }
 
     void Move()
@@ -61,56 +65,69 @@ public class PlayerController : MonoBehaviour
         
     }
 
-    void Attack()
+    void AttackDetector()
     {
-        // An attack is triggered if the player hits either Space or clicks their mouse/ taps their screen - could be nicer/ cleaner / more versatile, works for now 
-        if(Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Mouse0))
+        if (!_waiting)
         {
-            // There are two options of attacking, one is in the direction of the player's mouse pointer
-            if (_attackOptionTowardsMouse)
+            // Key being held down
+            if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.Mouse0))
             {
-                myLocation = transform.position;
-                var mousePosition = Input.mousePosition;
-                Vector3 targetLocation = Camera.main.ScreenToWorldPoint(mousePosition);
-                targetLocation.z = myLocation.z; // ensure there is no 3D rotation by aligning Z position
-     
-                // vector from this object towards the target location
-                Vector3 vectorToTarget = targetLocation - myLocation;
+                StartCoroutine(Attack());
+                _waiting = true;
+                Debug.Log("atatck2");
+            }  
+              
+        }
+    }
 
-                // get the rotation that points the Z axis forward, and the Y axis 90 degrees away from the target
-                Quaternion targetRotation = Quaternion.LookRotation(forward: Vector3.forward, upwards: vectorToTarget);
-                
-                if (_attackObject.CompareTag("SwordAttack") || _attackObject.CompareTag("LongSwordAttack"))
-                {
-                    myLocation += vectorToTarget.normalized * attackSpawnDistance;
-                }
-                var obj = Instantiate(_attackObject, myLocation, targetRotation);
-                if (_attackObject.CompareTag("LongSwordAttack"))
-                {
-                    HandleLongSwordAttack(transform.position, obj);
-                }
-                
-            }
-            // And the other is "forward", which is the direction that is = to transform.forward of the gameobject
-            else
+    IEnumerator Attack()
+    {
+        // There are two options of attacking, one is in the direction of the player's mouse pointer
+        if (_attackOptionTowardsMouse)
+        {
+            myLocation = transform.position;
+            var mousePosition = Input.mousePosition;
+            Vector3 targetLocation = Camera.main.ScreenToWorldPoint(mousePosition);
+            targetLocation.z = myLocation.z; // ensure there is no 3D rotation by aligning Z position
+ 
+            // vector from this object towards the target location
+            Vector3 vectorToTarget = targetLocation - myLocation;
+
+            // get the rotation that points the Z axis forward, and the Y axis 90 degrees away from the target
+            Quaternion targetRotation = Quaternion.LookRotation(forward: Vector3.forward, upwards: vectorToTarget);
+            
+            if (_attackObject.CompareTag("SwordAttack") || _attackObject.CompareTag("LongSwordAttack"))
             {
-                // First, spawn attacking object in front of player (location and movement depends on weapon type)
-                var currentTransform = gameObject.transform;
-                var currentPosition = currentTransform.position;
-                myLocation = new Vector3(currentPosition.x, currentPosition.y, currentPosition.z);
-                // If the attack object is any of these two, spawn them slightly in front of the player - 0.24f can be changed, should maybe be a variable
-                if (_attackObject.CompareTag("SwordAttack") || _attackObject.CompareTag("LongSwordAttack"))
-                {
-                    myLocation += transform.up * attackSpawnDistance;
-                }
-                var obj = Instantiate(_attackObject, myLocation, currentTransform.rotation);
-                // Special logic needed for "long swords", above "obj" reference is needed for some info
-                if (_attackObject.CompareTag("LongSwordAttack"))
-                {
-                    HandleLongSwordAttack(transform.position, obj);
-                }
+                myLocation += vectorToTarget.normalized * attackSpawnDistance;
+            }
+            var obj = Instantiate(_attackObject, myLocation, targetRotation);
+            if (_attackObject.CompareTag("LongSwordAttack"))
+            {
+                HandleLongSwordAttack(transform.position, obj);
+            }
+            
+        }
+        // And the other is "forward", which is the direction that is = to transform.forward of the gameobject
+        else
+        {
+            // First, spawn attacking object in front of player (location and movement depends on weapon type)
+            var currentTransform = gameObject.transform;
+            var currentPosition = currentTransform.position;
+            myLocation = new Vector3(currentPosition.x, currentPosition.y, currentPosition.z);
+            // If the attack object is any of these two, spawn them slightly in front of the player - 0.24f can be changed, should maybe be a variable
+            if (_attackObject.CompareTag("SwordAttack") || _attackObject.CompareTag("LongSwordAttack"))
+            {
+                myLocation += transform.up * attackSpawnDistance;
+            }
+            var obj = Instantiate(_attackObject, myLocation, currentTransform.rotation);
+            // Special logic needed for "long swords", above "obj" reference is needed for some info
+            if (_attackObject.CompareTag("LongSwordAttack"))
+            {
+                HandleLongSwordAttack(transform.position, obj);
             }
         }
+        yield return new WaitForSeconds(internalAttackDelay);
+        _waiting = false;
     }
     
     private void OnTriggerEnter2D(Collider2D other)
