@@ -11,3 +11,4 @@ Music:            5 Action chiptunes by Juhani Junkala (https://opengameart.org/
 Main menu music:  "Borealis" by Cosmin Mirza (cosminmirza.com)
 
 ![alt text](https://i.imgur.com/AelCzXk.png)
+Play the game in your browser here: https://wesslo.itch.io/slayer If a password is necessary to view the page, try "123" without the quotation marks. 
