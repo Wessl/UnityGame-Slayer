@@ -4,7 +4,7 @@
 ![alt text](https://img.itch.zone/aW1hZ2UvOTE4NDA5LzUyMDIyMjQucG5n/original/I1BvC0.png)
 ![alt text](https://img.itch.zone/aW1hZ2UvOTE4NDA5LzUyMDIyMjMucG5n/original/Yt4JHA.png)
 
-### Play the game in your browser here: https://wesslo.itch.io/slayer
+### Play the game in your browser here: https://wesslo.itch.io/slayer (For some users chrome is really laggy - if that happens I suggest firefox or edge)
 
 Repository for a melee bullet-hell-ish game I made with Unity 2020.2.1f1. Inspired partly by an old flash game that I cannot find anymore, but involved various types of slimes coming onto the screen over time, leaving behind various dangerous objects on the ground as they died. 
 
